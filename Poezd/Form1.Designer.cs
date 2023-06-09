@@ -65,6 +65,51 @@
             label32 = new Label();
             label33 = new Label();
             radioButton3 = new RadioButton();
+            label34 = new Label();
+            label35 = new Label();
+            label36 = new Label();
+            label37 = new Label();
+            label38 = new Label();
+            label39 = new Label();
+            label40 = new Label();
+            label41 = new Label();
+            label42 = new Label();
+            label43 = new Label();
+            label44 = new Label();
+            label45 = new Label();
+            label46 = new Label();
+            label47 = new Label();
+            radioButton4 = new RadioButton();
+            label48 = new Label();
+            label49 = new Label();
+            label50 = new Label();
+            label51 = new Label();
+            label52 = new Label();
+            label53 = new Label();
+            label54 = new Label();
+            label55 = new Label();
+            label56 = new Label();
+            label57 = new Label();
+            label58 = new Label();
+            label59 = new Label();
+            label60 = new Label();
+            label61 = new Label();
+            label62 = new Label();
+            label63 = new Label();
+            radioButton5 = new RadioButton();
+            label64 = new Label();
+            label65 = new Label();
+            label66 = new Label();
+            label67 = new Label();
+            label68 = new Label();
+            label69 = new Label();
+            label70 = new Label();
+            label71 = new Label();
+            label72 = new Label();
+            label73 = new Label();
+            label74 = new Label();
+            label75 = new Label();
+            radioButton6 = new RadioButton();
             SuspendLayout();
             // 
             // label1
@@ -87,7 +132,6 @@
             label2.Name = "label2";
             label2.Size = new Size(288, 32);
             label2.TabIndex = 1;
-            label2.Click += label2_Click;
             // 
             // label3
             // 
@@ -173,7 +217,6 @@
             label7.TabIndex = 8;
             label7.Text = "Rhodes";
             label7.TextAlign = ContentAlignment.MiddleCenter;
-            label7.Click += label7_Click;
             // 
             // label8
             // 
@@ -447,7 +490,7 @@
             label30.Name = "label30";
             label30.Size = new Size(72, 23);
             label30.TabIndex = 30;
-            label30.Text = "Emerald";
+            label30.Text = "Rhodes";
             label30.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label31
@@ -471,9 +514,8 @@
             label32.Name = "label32";
             label32.Size = new Size(72, 23);
             label32.TabIndex = 28;
-            label32.Text = "Rhodes";
+            label32.Text = "Emerald";
             label32.TextAlign = ContentAlignment.MiddleCenter;
-            label32.Click += label32_Click;
             // 
             // label33
             // 
@@ -501,11 +543,581 @@
             radioButton3.Text = "Saint Denis - Emerald - Valentine - Rhodes - Saint Denis - Annesburg";
             radioButton3.UseVisualStyleBackColor = false;
             // 
+            // label34
+            // 
+            label34.BackColor = SystemColors.InactiveCaption;
+            label34.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label34.ForeColor = Color.Black;
+            label34.Location = new Point(496, 440);
+            label34.Name = "label34";
+            label34.Size = new Size(80, 23);
+            label34.TabIndex = 38;
+            label34.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label35
+            // 
+            label35.BackColor = SystemColors.InactiveCaption;
+            label35.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label35.ForeColor = Color.Red;
+            label35.Location = new Point(488, 408);
+            label35.Name = "label35";
+            label35.Size = new Size(96, 23);
+            label35.TabIndex = 37;
+            label35.Text = "Annesburg";
+            label35.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label36
+            // 
+            label36.BackColor = SystemColors.InactiveCaption;
+            label36.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label36.ForeColor = Color.Black;
+            label36.Location = new Point(432, 544);
+            label36.Name = "label36";
+            label36.Size = new Size(64, 23);
+            label36.TabIndex = 51;
+            label36.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label37
+            // 
+            label37.BackColor = SystemColors.InactiveCaption;
+            label37.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label37.ForeColor = Color.Red;
+            label37.Location = new Point(424, 512);
+            label37.Name = "label37";
+            label37.Size = new Size(80, 23);
+            label37.TabIndex = 50;
+            label37.Text = "Saint Dennis";
+            label37.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label38
+            // 
+            label38.BackColor = SystemColors.InactiveCaption;
+            label38.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label38.ForeColor = Color.Black;
+            label38.Location = new Point(352, 544);
+            label38.Name = "label38";
+            label38.Size = new Size(64, 23);
+            label38.TabIndex = 49;
+            label38.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label39
+            // 
+            label39.BackColor = SystemColors.InactiveCaption;
+            label39.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label39.ForeColor = Color.Black;
+            label39.Location = new Point(280, 544);
+            label39.Name = "label39";
+            label39.Size = new Size(56, 23);
+            label39.TabIndex = 48;
+            label39.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label40
+            // 
+            label40.BackColor = SystemColors.InactiveCaption;
+            label40.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label40.ForeColor = Color.Black;
+            label40.Location = new Point(200, 544);
+            label40.Name = "label40";
+            label40.Size = new Size(64, 23);
+            label40.TabIndex = 47;
+            label40.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label41
+            // 
+            label41.BackColor = SystemColors.InactiveCaption;
+            label41.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label41.ForeColor = Color.Black;
+            label41.Location = new Point(120, 544);
+            label41.Name = "label41";
+            label41.Size = new Size(64, 23);
+            label41.TabIndex = 46;
+            label41.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label42
+            // 
+            label42.BackColor = SystemColors.InactiveCaption;
+            label42.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label42.ForeColor = Color.Black;
+            label42.Location = new Point(40, 544);
+            label42.Name = "label42";
+            label42.Size = new Size(64, 23);
+            label42.TabIndex = 45;
+            label42.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label43
+            // 
+            label43.BackColor = SystemColors.InactiveCaption;
+            label43.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label43.ForeColor = Color.Red;
+            label43.Location = new Point(352, 512);
+            label43.Name = "label43";
+            label43.Size = new Size(64, 23);
+            label43.TabIndex = 44;
+            label43.Text = "Rhodes";
+            label43.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label44
+            // 
+            label44.BackColor = SystemColors.InactiveCaption;
+            label44.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label44.ForeColor = Color.Red;
+            label44.Location = new Point(272, 512);
+            label44.Name = "label44";
+            label44.Size = new Size(72, 23);
+            label44.TabIndex = 43;
+            label44.Text = "Valentine";
+            label44.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label45
+            // 
+            label45.BackColor = SystemColors.InactiveCaption;
+            label45.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label45.ForeColor = Color.Red;
+            label45.Location = new Point(200, 512);
+            label45.Name = "label45";
+            label45.Size = new Size(64, 23);
+            label45.TabIndex = 42;
+            label45.Text = "Emerald";
+            label45.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label46
+            // 
+            label46.BackColor = SystemColors.InactiveCaption;
+            label46.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label46.ForeColor = Color.Red;
+            label46.Location = new Point(120, 512);
+            label46.Name = "label46";
+            label46.Size = new Size(72, 23);
+            label46.TabIndex = 41;
+            label46.Text = "Saint Denis";
+            label46.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label47
+            // 
+            label47.BackColor = SystemColors.InactiveCaption;
+            label47.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label47.ForeColor = Color.Red;
+            label47.Location = new Point(32, 512);
+            label47.Name = "label47";
+            label47.Size = new Size(80, 23);
+            label47.TabIndex = 40;
+            label47.Text = "Annesburg";
+            label47.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // radioButton4
+            // 
+            radioButton4.BackColor = SystemColors.InactiveCaption;
+            radioButton4.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            radioButton4.ForeColor = Color.Green;
+            radioButton4.Location = new Point(32, 472);
+            radioButton4.Name = "radioButton4";
+            radioButton4.Padding = new Padding(5, 0, 0, 0);
+            radioButton4.Size = new Size(504, 32);
+            radioButton4.TabIndex = 39;
+            radioButton4.TabStop = true;
+            radioButton4.Text = "Annesburg - Saint Denis - Emerald - Valentine - Rhodes - Saint Denis - Annesburg";
+            radioButton4.UseVisualStyleBackColor = false;
+            // 
+            // label48
+            // 
+            label48.BackColor = SystemColors.InactiveCaption;
+            label48.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label48.ForeColor = Color.Red;
+            label48.Location = new Point(512, 512);
+            label48.Name = "label48";
+            label48.Size = new Size(80, 23);
+            label48.TabIndex = 52;
+            label48.Text = "Annesburg";
+            label48.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label49
+            // 
+            label49.BackColor = SystemColors.InactiveCaption;
+            label49.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label49.ForeColor = Color.Black;
+            label49.Location = new Point(520, 544);
+            label49.Name = "label49";
+            label49.Size = new Size(64, 23);
+            label49.TabIndex = 53;
+            label49.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label50
+            // 
+            label50.BackColor = SystemColors.InactiveCaption;
+            label50.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label50.ForeColor = Color.Black;
+            label50.Location = new Point(520, 656);
+            label50.Name = "label50";
+            label50.Size = new Size(64, 23);
+            label50.TabIndex = 68;
+            label50.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label51
+            // 
+            label51.BackColor = SystemColors.InactiveCaption;
+            label51.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label51.ForeColor = Color.Red;
+            label51.Location = new Point(512, 624);
+            label51.Name = "label51";
+            label51.Size = new Size(80, 23);
+            label51.TabIndex = 67;
+            label51.Text = "Annesburg";
+            label51.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label52
+            // 
+            label52.BackColor = SystemColors.InactiveCaption;
+            label52.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label52.ForeColor = Color.Black;
+            label52.Location = new Point(432, 656);
+            label52.Name = "label52";
+            label52.Size = new Size(64, 23);
+            label52.TabIndex = 66;
+            label52.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label53
+            // 
+            label53.BackColor = SystemColors.InactiveCaption;
+            label53.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label53.ForeColor = Color.Red;
+            label53.Location = new Point(424, 624);
+            label53.Name = "label53";
+            label53.Size = new Size(80, 23);
+            label53.TabIndex = 65;
+            label53.Text = "Saint Dennis";
+            label53.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label54
+            // 
+            label54.BackColor = SystemColors.InactiveCaption;
+            label54.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label54.ForeColor = Color.Black;
+            label54.Location = new Point(352, 656);
+            label54.Name = "label54";
+            label54.Size = new Size(64, 23);
+            label54.TabIndex = 64;
+            label54.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label55
+            // 
+            label55.BackColor = SystemColors.InactiveCaption;
+            label55.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label55.ForeColor = Color.Black;
+            label55.Location = new Point(280, 656);
+            label55.Name = "label55";
+            label55.Size = new Size(56, 23);
+            label55.TabIndex = 63;
+            label55.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label56
+            // 
+            label56.BackColor = SystemColors.InactiveCaption;
+            label56.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label56.ForeColor = Color.Black;
+            label56.Location = new Point(200, 656);
+            label56.Name = "label56";
+            label56.Size = new Size(64, 23);
+            label56.TabIndex = 62;
+            label56.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label57
+            // 
+            label57.BackColor = SystemColors.InactiveCaption;
+            label57.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label57.ForeColor = Color.Black;
+            label57.Location = new Point(120, 656);
+            label57.Name = "label57";
+            label57.Size = new Size(64, 23);
+            label57.TabIndex = 61;
+            label57.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label58
+            // 
+            label58.BackColor = SystemColors.InactiveCaption;
+            label58.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label58.ForeColor = Color.Black;
+            label58.Location = new Point(40, 656);
+            label58.Name = "label58";
+            label58.Size = new Size(64, 23);
+            label58.TabIndex = 60;
+            label58.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label59
+            // 
+            label59.BackColor = SystemColors.InactiveCaption;
+            label59.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label59.ForeColor = Color.Red;
+            label59.Location = new Point(352, 624);
+            label59.Name = "label59";
+            label59.Size = new Size(64, 23);
+            label59.TabIndex = 59;
+            label59.Text = "Emerald";
+            label59.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label60
+            // 
+            label60.BackColor = SystemColors.InactiveCaption;
+            label60.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label60.ForeColor = Color.Red;
+            label60.Location = new Point(272, 624);
+            label60.Name = "label60";
+            label60.Size = new Size(72, 23);
+            label60.TabIndex = 58;
+            label60.Text = "Valentine";
+            label60.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label61
+            // 
+            label61.BackColor = SystemColors.InactiveCaption;
+            label61.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label61.ForeColor = Color.Red;
+            label61.Location = new Point(200, 624);
+            label61.Name = "label61";
+            label61.Size = new Size(64, 23);
+            label61.TabIndex = 57;
+            label61.Text = "Rhodes";
+            label61.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label62
+            // 
+            label62.BackColor = SystemColors.InactiveCaption;
+            label62.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label62.ForeColor = Color.Red;
+            label62.Location = new Point(120, 624);
+            label62.Name = "label62";
+            label62.Size = new Size(72, 23);
+            label62.TabIndex = 56;
+            label62.Text = "Saint Denis";
+            label62.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label63
+            // 
+            label63.BackColor = SystemColors.InactiveCaption;
+            label63.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label63.ForeColor = Color.Red;
+            label63.Location = new Point(32, 624);
+            label63.Name = "label63";
+            label63.Size = new Size(80, 23);
+            label63.TabIndex = 55;
+            label63.Text = "Annesburg";
+            label63.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // radioButton5
+            // 
+            radioButton5.BackColor = SystemColors.InactiveCaption;
+            radioButton5.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            radioButton5.ForeColor = Color.Green;
+            radioButton5.Location = new Point(32, 584);
+            radioButton5.Name = "radioButton5";
+            radioButton5.Padding = new Padding(5, 0, 0, 0);
+            radioButton5.Size = new Size(504, 32);
+            radioButton5.TabIndex = 54;
+            radioButton5.TabStop = true;
+            radioButton5.Text = "Annesburg - Saint Denis - Rhodes - Valentine - Emerald - Saint Denis - Annesburg";
+            radioButton5.UseVisualStyleBackColor = false;
+            // 
+            // label64
+            // 
+            label64.BackColor = SystemColors.InactiveCaption;
+            label64.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label64.ForeColor = Color.Black;
+            label64.Location = new Point(496, 768);
+            label64.Name = "label64";
+            label64.Size = new Size(80, 23);
+            label64.TabIndex = 81;
+            label64.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label65
+            // 
+            label65.BackColor = SystemColors.InactiveCaption;
+            label65.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label65.ForeColor = Color.Red;
+            label65.Location = new Point(488, 736);
+            label65.Name = "label65";
+            label65.Size = new Size(96, 23);
+            label65.TabIndex = 80;
+            label65.Text = "Saint Dennis";
+            label65.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label66
+            // 
+            label66.BackColor = SystemColors.InactiveCaption;
+            label66.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label66.ForeColor = Color.Black;
+            label66.Location = new Point(392, 768);
+            label66.Name = "label66";
+            label66.Size = new Size(80, 23);
+            label66.TabIndex = 79;
+            label66.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label67
+            // 
+            label67.BackColor = SystemColors.InactiveCaption;
+            label67.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label67.ForeColor = Color.Black;
+            label67.Location = new Point(304, 768);
+            label67.Name = "label67";
+            label67.Size = new Size(72, 23);
+            label67.TabIndex = 78;
+            label67.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label68
+            // 
+            label68.BackColor = SystemColors.InactiveCaption;
+            label68.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label68.ForeColor = Color.Black;
+            label68.Location = new Point(224, 768);
+            label68.Name = "label68";
+            label68.Size = new Size(72, 23);
+            label68.TabIndex = 77;
+            label68.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label69
+            // 
+            label69.BackColor = SystemColors.InactiveCaption;
+            label69.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label69.ForeColor = Color.Black;
+            label69.Location = new Point(144, 768);
+            label69.Name = "label69";
+            label69.Size = new Size(64, 23);
+            label69.TabIndex = 76;
+            label69.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label70
+            // 
+            label70.BackColor = SystemColors.InactiveCaption;
+            label70.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label70.ForeColor = Color.Black;
+            label70.Location = new Point(40, 768);
+            label70.Name = "label70";
+            label70.Size = new Size(80, 23);
+            label70.TabIndex = 75;
+            label70.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label71
+            // 
+            label71.BackColor = SystemColors.InactiveCaption;
+            label71.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label71.ForeColor = Color.Red;
+            label71.Location = new Point(384, 736);
+            label71.Name = "label71";
+            label71.Size = new Size(96, 23);
+            label71.TabIndex = 74;
+            label71.Text = "Rhodes";
+            label71.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label72
+            // 
+            label72.BackColor = SystemColors.InactiveCaption;
+            label72.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label72.ForeColor = Color.Red;
+            label72.Location = new Point(304, 736);
+            label72.Name = "label72";
+            label72.Size = new Size(72, 23);
+            label72.TabIndex = 73;
+            label72.Text = "Valentine";
+            label72.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label73
+            // 
+            label73.BackColor = SystemColors.InactiveCaption;
+            label73.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label73.ForeColor = Color.Red;
+            label73.Location = new Point(224, 736);
+            label73.Name = "label73";
+            label73.Size = new Size(72, 23);
+            label73.TabIndex = 72;
+            label73.Text = "Emerald";
+            label73.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label74
+            // 
+            label74.BackColor = SystemColors.InactiveCaption;
+            label74.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label74.ForeColor = Color.Red;
+            label74.Location = new Point(144, 736);
+            label74.Name = "label74";
+            label74.Size = new Size(72, 23);
+            label74.TabIndex = 71;
+            label74.Text = "Saint Denis";
+            label74.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label75
+            // 
+            label75.BackColor = SystemColors.InactiveCaption;
+            label75.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label75.ForeColor = Color.Red;
+            label75.Location = new Point(32, 736);
+            label75.Name = "label75";
+            label75.Size = new Size(104, 23);
+            label75.TabIndex = 70;
+            label75.Text = "Annesburg";
+            label75.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // radioButton6
+            // 
+            radioButton6.BackColor = SystemColors.InactiveCaption;
+            radioButton6.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            radioButton6.ForeColor = Color.Green;
+            radioButton6.Location = new Point(32, 696);
+            radioButton6.Name = "radioButton6";
+            radioButton6.Padding = new Padding(5, 0, 0, 0);
+            radioButton6.Size = new Size(472, 32);
+            radioButton6.TabIndex = 69;
+            radioButton6.TabStop = true;
+            radioButton6.Text = "Annesburg - Saint Denis - Emerald - Valentine - Rhodes - Saint Denis";
+            radioButton6.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(606, 845);
+            Controls.Add(label64);
+            Controls.Add(label65);
+            Controls.Add(label66);
+            Controls.Add(label67);
+            Controls.Add(label68);
+            Controls.Add(label69);
+            Controls.Add(label70);
+            Controls.Add(label71);
+            Controls.Add(label72);
+            Controls.Add(label73);
+            Controls.Add(label74);
+            Controls.Add(label75);
+            Controls.Add(radioButton6);
+            Controls.Add(label50);
+            Controls.Add(label51);
+            Controls.Add(label52);
+            Controls.Add(label53);
+            Controls.Add(label54);
+            Controls.Add(label55);
+            Controls.Add(label56);
+            Controls.Add(label57);
+            Controls.Add(label58);
+            Controls.Add(label59);
+            Controls.Add(label60);
+            Controls.Add(label61);
+            Controls.Add(label62);
+            Controls.Add(label63);
+            Controls.Add(radioButton5);
+            Controls.Add(label49);
+            Controls.Add(label48);
+            Controls.Add(label36);
+            Controls.Add(label37);
+            Controls.Add(label38);
+            Controls.Add(label39);
+            Controls.Add(label40);
+            Controls.Add(label41);
+            Controls.Add(label42);
+            Controls.Add(label43);
+            Controls.Add(label44);
+            Controls.Add(label45);
+            Controls.Add(label46);
+            Controls.Add(label47);
+            Controls.Add(radioButton4);
+            Controls.Add(label34);
+            Controls.Add(label35);
             Controls.Add(label24);
             Controls.Add(label25);
             Controls.Add(label26);
@@ -588,5 +1200,50 @@
         private Label label32;
         private Label label33;
         private RadioButton radioButton3;
+        private Label label34;
+        private Label label35;
+        private Label label36;
+        private Label label37;
+        private Label label38;
+        private Label label39;
+        private Label label40;
+        private Label label41;
+        private Label label42;
+        private Label label43;
+        private Label label44;
+        private Label label45;
+        private Label label46;
+        private Label label47;
+        private RadioButton radioButton4;
+        private Label label48;
+        private Label label49;
+        private Label label50;
+        private Label label51;
+        private Label label52;
+        private Label label53;
+        private Label label54;
+        private Label label55;
+        private Label label56;
+        private Label label57;
+        private Label label58;
+        private Label label59;
+        private Label label60;
+        private Label label61;
+        private Label label62;
+        private Label label63;
+        private RadioButton radioButton5;
+        private Label label64;
+        private Label label65;
+        private Label label66;
+        private Label label67;
+        private Label label68;
+        private Label label69;
+        private Label label70;
+        private Label label71;
+        private Label label72;
+        private Label label73;
+        private Label label74;
+        private Label label75;
+        private RadioButton radioButton6;
     }
 }
