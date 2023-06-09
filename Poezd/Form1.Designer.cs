@@ -110,6 +110,10 @@
             label74 = new Label();
             label75 = new Label();
             radioButton6 = new RadioButton();
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
+            button4 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -1068,11 +1072,63 @@
             radioButton6.Text = "Annesburg - Saint Denis - Emerald - Valentine - Rhodes - Saint Denis";
             radioButton6.UseVisualStyleBackColor = false;
             // 
+            // button1
+            // 
+            button1.BackColor = Color.FromArgb(192, 255, 192);
+            button1.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.ForeColor = Color.Red;
+            button1.Location = new Point(56, 800);
+            button1.Name = "button1";
+            button1.Size = new Size(120, 56);
+            button1.TabIndex = 82;
+            button1.Text = "Расписание";
+            button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.FromArgb(224, 224, 224);
+            button2.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button2.ForeColor = Color.Red;
+            button2.Location = new Point(192, 800);
+            button2.Name = "button2";
+            button2.Size = new Size(120, 56);
+            button2.TabIndex = 83;
+            button2.Text = "Закончить маршрут";
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.FromArgb(224, 224, 224);
+            button3.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button3.ForeColor = Color.Blue;
+            button3.Location = new Point(328, 800);
+            button3.Name = "button3";
+            button3.Size = new Size(120, 56);
+            button3.TabIndex = 84;
+            button3.Text = "Выход";
+            button3.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            button4.BackColor = Color.Black;
+            button4.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            button4.ForeColor = Color.White;
+            button4.Location = new Point(456, 800);
+            button4.Name = "button4";
+            button4.Size = new Size(120, 56);
+            button4.TabIndex = 85;
+            button4.Text = "Удалить запись из рейса";
+            button4.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(606, 845);
+            ClientSize = new Size(606, 868);
+            Controls.Add(button4);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(button1);
             Controls.Add(label64);
             Controls.Add(label65);
             Controls.Add(label66);
@@ -1245,5 +1301,9 @@
         private Label label74;
         private Label label75;
         private RadioButton radioButton6;
+        private Button button1;
+        private Button button2;
+        private Button button3;
+        private Button button4;
     }
 }
