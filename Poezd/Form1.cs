@@ -11,15 +11,5 @@ namespace Poezd
         {
             comboBox1.SelectedIndex = 0;
         }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

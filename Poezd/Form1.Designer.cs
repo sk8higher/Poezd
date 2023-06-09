@@ -54,6 +54,17 @@
             label22 = new Label();
             label23 = new Label();
             radioButton2 = new RadioButton();
+            label24 = new Label();
+            label25 = new Label();
+            label26 = new Label();
+            label27 = new Label();
+            label28 = new Label();
+            label29 = new Label();
+            label30 = new Label();
+            label31 = new Label();
+            label32 = new Label();
+            label33 = new Label();
+            radioButton3 = new RadioButton();
             SuspendLayout();
             // 
             // label1
@@ -360,11 +371,152 @@
             radioButton2.Text = "Saint Denis - Rhodes - Valentine - Emerald - Saint Denis";
             radioButton2.UseVisualStyleBackColor = false;
             // 
+            // label24
+            // 
+            label24.BackColor = SystemColors.InactiveCaption;
+            label24.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label24.ForeColor = Color.Black;
+            label24.Location = new Point(392, 440);
+            label24.Name = "label24";
+            label24.Size = new Size(80, 23);
+            label24.TabIndex = 36;
+            label24.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label25
+            // 
+            label25.BackColor = SystemColors.InactiveCaption;
+            label25.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label25.ForeColor = Color.Black;
+            label25.Location = new Point(304, 440);
+            label25.Name = "label25";
+            label25.Size = new Size(72, 23);
+            label25.TabIndex = 35;
+            label25.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label26
+            // 
+            label26.BackColor = SystemColors.InactiveCaption;
+            label26.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label26.ForeColor = Color.Black;
+            label26.Location = new Point(224, 440);
+            label26.Name = "label26";
+            label26.Size = new Size(72, 23);
+            label26.TabIndex = 34;
+            label26.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label27
+            // 
+            label27.BackColor = SystemColors.InactiveCaption;
+            label27.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label27.ForeColor = Color.Black;
+            label27.Location = new Point(144, 440);
+            label27.Name = "label27";
+            label27.Size = new Size(64, 23);
+            label27.TabIndex = 33;
+            label27.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label28
+            // 
+            label28.BackColor = SystemColors.InactiveCaption;
+            label28.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label28.ForeColor = Color.Black;
+            label28.Location = new Point(40, 440);
+            label28.Name = "label28";
+            label28.Size = new Size(80, 23);
+            label28.TabIndex = 32;
+            label28.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label29
+            // 
+            label29.BackColor = SystemColors.InactiveCaption;
+            label29.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label29.ForeColor = Color.Red;
+            label29.Location = new Point(384, 408);
+            label29.Name = "label29";
+            label29.Size = new Size(96, 23);
+            label29.TabIndex = 31;
+            label29.Text = "Saint Denis";
+            label29.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label30
+            // 
+            label30.BackColor = SystemColors.InactiveCaption;
+            label30.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label30.ForeColor = Color.Red;
+            label30.Location = new Point(304, 408);
+            label30.Name = "label30";
+            label30.Size = new Size(72, 23);
+            label30.TabIndex = 30;
+            label30.Text = "Emerald";
+            label30.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label31
+            // 
+            label31.BackColor = SystemColors.InactiveCaption;
+            label31.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label31.ForeColor = Color.Red;
+            label31.Location = new Point(224, 408);
+            label31.Name = "label31";
+            label31.Size = new Size(72, 23);
+            label31.TabIndex = 29;
+            label31.Text = "Valentine";
+            label31.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label32
+            // 
+            label32.BackColor = SystemColors.InactiveCaption;
+            label32.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label32.ForeColor = Color.Red;
+            label32.Location = new Point(144, 408);
+            label32.Name = "label32";
+            label32.Size = new Size(72, 23);
+            label32.TabIndex = 28;
+            label32.Text = "Rhodes";
+            label32.TextAlign = ContentAlignment.MiddleCenter;
+            label32.Click += label32_Click;
+            // 
+            // label33
+            // 
+            label33.BackColor = SystemColors.InactiveCaption;
+            label33.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label33.ForeColor = Color.Red;
+            label33.Location = new Point(32, 408);
+            label33.Name = "label33";
+            label33.Size = new Size(104, 23);
+            label33.TabIndex = 27;
+            label33.Text = "Saint Denis";
+            label33.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // radioButton3
+            // 
+            radioButton3.BackColor = SystemColors.InactiveCaption;
+            radioButton3.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            radioButton3.ForeColor = Color.Green;
+            radioButton3.Location = new Point(32, 368);
+            radioButton3.Name = "radioButton3";
+            radioButton3.Padding = new Padding(5, 0, 0, 0);
+            radioButton3.Size = new Size(448, 32);
+            radioButton3.TabIndex = 26;
+            radioButton3.TabStop = true;
+            radioButton3.Text = "Saint Denis - Emerald - Valentine - Rhodes - Saint Denis - Annesburg";
+            radioButton3.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(606, 845);
+            Controls.Add(label24);
+            Controls.Add(label25);
+            Controls.Add(label26);
+            Controls.Add(label27);
+            Controls.Add(label28);
+            Controls.Add(label29);
+            Controls.Add(label30);
+            Controls.Add(label31);
+            Controls.Add(label32);
+            Controls.Add(label33);
+            Controls.Add(radioButton3);
             Controls.Add(label14);
             Controls.Add(label15);
             Controls.Add(label16);
@@ -425,5 +577,16 @@
         private Label label22;
         private Label label23;
         private RadioButton radioButton2;
+        private Label label24;
+        private Label label25;
+        private Label label26;
+        private Label label27;
+        private Label label28;
+        private Label label29;
+        private Label label30;
+        private Label label31;
+        private Label label32;
+        private Label label33;
+        private RadioButton radioButton3;
     }
 }
