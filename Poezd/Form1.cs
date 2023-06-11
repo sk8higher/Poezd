@@ -54,6 +54,11 @@
                 rou = label12.Text;
                 label13.Text = $"{time.AddMinutes(18 + r).AddSeconds(-time.Second):T}";
                 sent_prib = label13.Text;
+
+                radioButton2.Enabled = radioButton3.Enabled = radioButton4.Enabled 
+                                     = radioButton5.Enabled = radioButton6.Enabled = false;
+
+                button1.Enabled = button3.Enabled = false;
             }
         }
     }
