@@ -136,6 +136,7 @@
             label2.Name = "label2";
             label2.Size = new Size(288, 32);
             label2.TabIndex = 1;
+            label2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label3
             // 
@@ -1083,6 +1084,7 @@
             button1.TabIndex = 82;
             button1.Text = "Расписание";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
