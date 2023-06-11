@@ -8,7 +8,7 @@
         private string b; // кол-во баллов
         private int m; // кол-во рейсов
 
-        private string sent, emm, valen, rou, sent_prib, sent_prib2;
+        private string sent, ann, emm, valen, rou, sent_prib, sent_prib2;
 
         public Form1()
         {
@@ -76,6 +76,28 @@
                 sent_prib2 = label14.Text;
 
                 radioButton1.Enabled = radioButton3.Enabled = radioButton4.Enabled = radioButton5.Enabled = radioButton6.Enabled = false;
+
+                button1.Enabled = button3.Enabled = false;
+            }
+            else if (radioButton3.Checked)
+            {
+                b += 1.2;
+                m += 1;
+
+                label28.Text = $"{time.AddMinutes(2 + r).AddSeconds(-time.Second):T}";
+                sent = label28.Text;
+                label27.Text = $"{time.AddMinutes(7 + r).AddSeconds(-time.Second):T}";
+                emm = label27.Text;
+                label26.Text = $"{time.AddMinutes(12 + r).AddSeconds(-time.Second):T}";
+                valen = label26.Text;
+                label25.Text = $"{time.AddMinutes(16 + r).AddSeconds(-time.Second):T}";
+                rou = label25.Text;
+                label24.Text = $"{time.AddMinutes(19 + r).AddSeconds(-time.Second):T}";
+                sent_prib = label24.Text;
+                label34.Text = $"{time.AddMinutes(23 + r).AddSeconds(-time.Second):T}";
+                ann = label34.Text;
+
+                radioButton1.Enabled = radioButton2.Enabled = radioButton4.Enabled = radioButton5.Enabled = radioButton6.Enabled = false;
 
                 button1.Enabled = button3.Enabled = false;
             }
