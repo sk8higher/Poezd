@@ -12,6 +12,8 @@
 
         private string sent, ann, emm, valen, rou, sent_prib, sent_prib2, sent_prib3, ann_prib, ann_prib2;
 
+        private bool closeButtonClicked = false;
+
         public Form1()
         {
             InitializeComponent();
@@ -20,6 +22,8 @@
         private void Form1_Load(object sender, EventArgs e)
         {
             comboBox1.SelectedIndex = 0;
+            b = m = 0;
+            button2.Enabled = button4.Enabled = false;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -30,6 +34,8 @@
             hour = time.Hour;
             minute = time.Minute;
             second = 0;
+
+            button2.Enabled = button4.Enabled = true;
 
             v = Int32.Parse(comboBox1.SelectedItem.ToString());
 
@@ -410,6 +416,8 @@
 
         private void button3_Click(object sender, EventArgs e)
         {
+            closeButtonClicked = true;
+
             DialogResult result = MessageBox.Show(
                 "Вы уверены что хотите выйти?",
                 "Подтверждение",
@@ -421,11 +429,13 @@
             {
                 string fileName = "1.txt";
                 string filePath = Path.Combine(Environment.CurrentDirectory, fileName);
-                using (StreamWriter writer = new(filePath))
+                using (StreamWriter writer = new(filePath, append: true))
                 {
+                    writer.WriteLine("--------------------------------");
                     writer.WriteLine($"Кол-во рейсов = {m};");
                     writer.WriteLine($"Кол-во баллов = {b};");
                     writer.WriteLine($"Дата = {DateTime.Now:d} {DateTime.Now:T}");
+                    writer.WriteLine("--------------------------------");
                 }
 
                 MessageBox.Show(
@@ -437,6 +447,77 @@
 
                 Application.Exit();
             }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            button1.Enabled = button3.Enabled = true;
+            button2.Enabled = button4.Enabled = false;
+
+            if (radioButton1.Checked)
+            {
+                m -= 1;
+                b -= 1;
+            }
+            else if (radioButton2.Checked)
+            {
+                m -= 1;
+                b -= 1;
+            }
+            else if (radioButton3.Checked)
+            {
+                m -= 1;
+                b -= 1.2;
+            }
+            else if (radioButton4.Checked)
+            {
+                m -= 1;
+                b -= 1.35;
+            }
+            else if (radioButton5.Checked)
+            {
+                m -= 1;
+                b -= 1.35;
+            }
+            else if (radioButton6.Checked)
+            {
+                m -= 1;
+                b -= 1.2;
+            }
+
+
+            label2.Text = "";
+
+            radioButton1.Enabled = radioButton2.Enabled = radioButton3.Enabled = radioButton4.Enabled = radioButton5.Enabled = radioButton6.Enabled = true;
+            radioButton1.Checked = radioButton2.Checked = radioButton3.Checked = radioButton4.Checked = radioButton5.Checked = radioButton6.Checked = false;
+            comboBox1.SelectedIndex = 0;
+
+            label9.Text = label10.Text = label11.Text = label12.Text = label13.Text = "";
+            label18.Text = label17.Text = label16.Text = label15.Text = label14.Text = "";
+            label28.Text = label27.Text = label26.Text = label25.Text = label24.Text = label34.Text = "";
+            label42.Text = label41.Text = label40.Text = label39.Text = label38.Text = label36.Text = label49.Text = "";
+            label58.Text = label57.Text = label56.Text = label55.Text = label54.Text = label52.Text = label50.Text = "";
+            label70.Text = label69.Text = label68.Text = label67.Text = label66.Text = label64.Text = "";
+
+            MessageBox.Show(
+                "Запись удалена",
+                "Удаление",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Information
+            );
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (!closeButtonClicked &&
+                MessageBox.Show(
+                    "Форма закрывается через кнопку выход",
+                    "Предупреждение",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information
+                ) == DialogResult.OK
+            )
+                e.Cancel = true;
         }
     }
 }

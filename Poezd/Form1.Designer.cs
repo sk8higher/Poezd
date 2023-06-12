@@ -1114,7 +1114,7 @@
             // 
             // button4
             // 
-            button4.BackColor = Color.Black;
+            button4.BackColor = Color.SteelBlue;
             button4.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             button4.ForeColor = Color.White;
             button4.Location = new Point(456, 800);
@@ -1123,6 +1123,7 @@
             button4.TabIndex = 85;
             button4.Text = "Удалить запись из рейса";
             button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // Form1
             // 
@@ -1219,6 +1220,7 @@
             MaximizeBox = false;
             Name = "Form1";
             Text = "RE";
+            FormClosing += Form1_FormClosing;
             Load += Form1_Load;
             ResumeLayout(false);
         }
