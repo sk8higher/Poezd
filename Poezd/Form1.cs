@@ -421,11 +421,13 @@
             {
                 string fileName = "1.txt";
                 string filePath = Path.Combine(Environment.CurrentDirectory, fileName);
-                using (StreamWriter writer = new(filePath))
+                using (StreamWriter writer = new(filePath, append: true))
                 {
+                    writer.WriteLine("--------------------------------");
                     writer.WriteLine($"Кол-во рейсов = {m};");
                     writer.WriteLine($"Кол-во баллов = {b};");
                     writer.WriteLine($"Дата = {DateTime.Now:d} {DateTime.Now:T}");
+                    writer.WriteLine("--------------------------------");
                 }
 
                 MessageBox.Show(
