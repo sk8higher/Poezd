@@ -1223,6 +1223,7 @@
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "Form1";
+            ShowIcon = false;
             Text = "RE";
             FormClosing += Form1_FormClosing;
             Load += Form1_Load;
