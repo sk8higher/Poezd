@@ -242,6 +242,20 @@
                     "```"
                 );
             }
+            else if(radioButton6.Checked)
+            {
+                Clipboard.SetText(
+                    "```\n" +
+                    "Маршрут: Annesburg - Saint Denis - Emerald - Valentine - Rhodes - Saint Denis\n" +
+                    $"Отправление из Annesburg - {ann}\n" +
+                    $"Отправление из Saint Denis - {sent}\n" +
+                    $"Отправление из Emerald - {emm}\n" +
+                    $"Отправление из Valentine - {valen}\n" +
+                    $"Отправление из Rhodes - {rou}\n" +
+                    $"Прибытие в Saint Denis - {sent_prib3}\n" +
+                    "```"
+                );
+            }
         }
     }
 }
