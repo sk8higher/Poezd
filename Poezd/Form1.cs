@@ -404,8 +404,8 @@
                     comboBox1.SelectedIndex = 0;
 
                     label2.Text = label70.Text = label69.Text = label68.Text = label67.Text = label66.Text = label64.Text = "";
+                }
             }
-        }
         }
 
         private void button3_Click(object sender, EventArgs e)
