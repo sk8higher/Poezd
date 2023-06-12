@@ -2,6 +2,8 @@
 {
     public partial class Form1 : Form
     {
+        private DateTime time;
+
         private int hour, minute, second;
         private int r, v;
 
@@ -22,7 +24,7 @@
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DateTime time = DateTime.Now;
+            time = DateTime.Now;
             label2.Text = $"Время {time:T}";
 
             hour = time.Hour;
@@ -172,7 +174,7 @@
                 button1.Enabled = button3.Enabled = false;
             }
 
-            if(radioButton1.Checked)
+            if (radioButton1.Checked)
             {
                 Clipboard.SetText(
                     "```\n" +
@@ -185,7 +187,7 @@
                     "```"
                 );
             }
-            else if(radioButton2.Checked)
+            else if (radioButton2.Checked)
             {
                 Clipboard.SetText(
                     "```\n" +
@@ -198,7 +200,7 @@
                     "```"
                 );
             }
-            else if(radioButton3.Checked)
+            else if (radioButton3.Checked)
             {
                 Clipboard.SetText(
                     "```\n" +
@@ -212,7 +214,7 @@
                     "```"
                 );
             }
-            else if(radioButton4.Checked)
+            else if (radioButton4.Checked)
             {
                 Clipboard.SetText(
                     "```\n" +
@@ -227,7 +229,7 @@
                     "```"
                 );
             }
-            else if(radioButton5.Checked)
+            else if (radioButton5.Checked)
             {
                 Clipboard.SetText(
                     "```\n" +
@@ -242,7 +244,7 @@
                     "```"
                 );
             }
-            else if(radioButton6.Checked)
+            else if (radioButton6.Checked)
             {
                 Clipboard.SetText(
                     "```\n" +
@@ -255,6 +257,24 @@
                     $"Прибытие в Saint Denis - {sent_prib3}\n" +
                     "```"
                 );
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if(radioButton1.Checked)
+            {
+                if (DateTime.Now < DateTime.Parse(sent_prib))
+                {
+                    MessageBox.Show(
+                        "Время маршрута еще не закончилось",
+                        "Предупреждение",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Warning
+                    );
+                }
+                else
+                    button1.Enabled = button3.Enabled = true;
             }
         }
     }
