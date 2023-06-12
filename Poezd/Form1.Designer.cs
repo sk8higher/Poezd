@@ -1114,7 +1114,7 @@
             // 
             // button4
             // 
-            button4.BackColor = Color.Black;
+            button4.BackColor = Color.SteelBlue;
             button4.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             button4.ForeColor = Color.White;
             button4.Location = new Point(456, 800);
