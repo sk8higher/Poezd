@@ -171,6 +171,62 @@
 
                 button1.Enabled = button3.Enabled = false;
             }
+
+            if(radioButton1.Checked)
+            {
+                Clipboard.SetText(
+                    "```\n" +
+                    "Маршрут: Saint Denis - Emerald - Valentine - Rhodes - Saint Denis\n" +
+                    $"Отправление из Saint Denis - {sent}\n" +
+                    $"Отправление из Emerald - {emm}\n" +
+                    $"Отправление из Valentine - {valen}\n" +
+                    $"Отправление из Rhodes - {rou}\n" +
+                    $"Прибытие в Saint Denis - {sent_prib}\n" +
+                    "```"
+                );
+            }
+            else if(radioButton2.Checked)
+            {
+                Clipboard.SetText(
+                    "```\n" +
+                    "Маршрут: Saint Denis - Rhodes - Valentine - Emerald - Saint Denis\n" +
+                    $"Отправление из Saint Denis - {sent}\n" +
+                    $"Отправление из Rhodes - {rou}\n" +
+                    $"Отправление из Valentine - {valen}\n" +
+                    $"Отправление из Emerald - {emm}\n" +
+                    $"Прибытие в Saint Denis - {sent_prib2}\n" +
+                    "```"
+                );
+            }
+            else if(radioButton3.Checked)
+            {
+                Clipboard.SetText(
+                    "```\n" +
+                    "Маршрут: Saint Denis - Emerald - Valentine - Rhodes - Saint Denis - Annesburg\n" +
+                    $"Отправление из Saint Denis - {sent}\n" +
+                    $"Отправление из Emerald - {emm}\n" +
+                    $"Отправление из Valentine - {valen}\n" +
+                    $"Отправление из Rhodes - {rou}\n" +
+                    $"Отправление из Saint Denis - {sent_prib}\n" +
+                    $"Прибытие в Annesburg - {ann}\n" +
+                    "```"
+                );
+            }
+            else if(radioButton4.Checked)
+            {
+                Clipboard.SetText(
+                    "```\n" +
+                    "Маршрут: Annesburg - Saint Denis - Emerald - Valentine - Rhodes - Saint Denis - Annesburg\n" +
+                    $"Отправление из Annesburg - {ann}\n" +
+                    $"Отправление из Saint Denis - {sent}\n" +
+                    $"Отправление из Emerald - {emm}\n" +
+                    $"Отправление из Valentine - {valen}\n" +
+                    $"Отправление из Rhodes - {rou}\n" +
+                    $"Отправление из Saint Denis - {sent_prib}\n" +
+                    $"Прибытие в Annesburg - {ann_prib}\n" +
+                    "```"
+                );
+            }
         }
     }
 }
