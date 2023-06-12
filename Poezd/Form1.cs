@@ -22,6 +22,7 @@
         private void Form1_Load(object sender, EventArgs e)
         {
             comboBox1.SelectedIndex = 0;
+            b = m = 0;
             button2.Enabled = button4.Enabled = false;
         }
 
