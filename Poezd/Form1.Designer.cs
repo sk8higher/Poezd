@@ -1123,6 +1123,7 @@
             button4.TabIndex = 85;
             button4.Text = "Удалить запись из рейса";
             button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // Form1
             // 

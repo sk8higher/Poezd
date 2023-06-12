@@ -20,6 +20,7 @@
         private void Form1_Load(object sender, EventArgs e)
         {
             comboBox1.SelectedIndex = 0;
+            button2.Enabled = button4.Enabled = false;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -30,6 +31,8 @@
             hour = time.Hour;
             minute = time.Minute;
             second = 0;
+
+            button2.Enabled = button4.Enabled = true;
 
             v = Int32.Parse(comboBox1.SelectedItem.ToString());
 
@@ -439,6 +442,12 @@
 
                 Application.Exit();
             }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            button1.Enabled = button3.Enabled = true;
+            button2.Enabled = button4.Enabled = false;
         }
     }
 }
