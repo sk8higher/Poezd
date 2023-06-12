@@ -1220,6 +1220,7 @@
             MaximizeBox = false;
             Name = "Form1";
             Text = "RE";
+            FormClosing += Form1_FormClosing;
             Load += Form1_Load;
             ResumeLayout(false);
         }
