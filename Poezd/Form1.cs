@@ -2,6 +2,8 @@
 {
     public partial class Form1 : Form
     {
+        private DateTime time;
+
         private int hour, minute, second;
         private int r, v;
 
@@ -22,7 +24,7 @@
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DateTime time = DateTime.Now;
+            time = DateTime.Now;
             label2.Text = $"Время {time:T}";
 
             hour = time.Hour;
@@ -172,7 +174,7 @@
                 button1.Enabled = button3.Enabled = false;
             }
 
-            if(radioButton1.Checked)
+            if (radioButton1.Checked)
             {
                 Clipboard.SetText(
                     "```\n" +
@@ -185,7 +187,7 @@
                     "```"
                 );
             }
-            else if(radioButton2.Checked)
+            else if (radioButton2.Checked)
             {
                 Clipboard.SetText(
                     "```\n" +
@@ -198,7 +200,7 @@
                     "```"
                 );
             }
-            else if(radioButton3.Checked)
+            else if (radioButton3.Checked)
             {
                 Clipboard.SetText(
                     "```\n" +
@@ -212,7 +214,7 @@
                     "```"
                 );
             }
-            else if(radioButton4.Checked)
+            else if (radioButton4.Checked)
             {
                 Clipboard.SetText(
                     "```\n" +
@@ -227,7 +229,7 @@
                     "```"
                 );
             }
-            else if(radioButton5.Checked)
+            else if (radioButton5.Checked)
             {
                 Clipboard.SetText(
                     "```\n" +
@@ -242,7 +244,7 @@
                     "```"
                 );
             }
-            else if(radioButton6.Checked)
+            else if (radioButton6.Checked)
             {
                 Clipboard.SetText(
                     "```\n" +
@@ -255,6 +257,154 @@
                     $"Прибытие в Saint Denis - {sent_prib3}\n" +
                     "```"
                 );
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if(radioButton1.Checked)
+            {
+                if (DateTime.Now < DateTime.Parse(sent_prib))
+                {
+                    MessageBox.Show(
+                        "Время маршрута еще не закончилось",
+                        "Предупреждение",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Warning
+                    );
+                }
+                else
+                {
+                    button1.Enabled = button3.Enabled = true;
+
+                    radioButton1.Enabled = radioButton2.Enabled = radioButton3.Enabled = radioButton4.Enabled = radioButton5.Enabled = radioButton6.Enabled = true;
+
+                    radioButton1.Checked = false;
+
+                    comboBox1.SelectedIndex = 0;
+
+                    label2.Text = label9.Text = label10.Text = label11.Text = label12.Text = label13.Text = "";
+                }
+            }
+            else if(radioButton2.Checked)
+            {
+                if (DateTime.Now < DateTime.Parse(sent_prib2))
+                {
+                    MessageBox.Show(
+                        "Время маршрута еще не закончилось",
+                        "Предупреждение",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Warning
+                    );
+                }
+                else
+                {
+                    button1.Enabled = button3.Enabled = true;
+
+                    radioButton1.Enabled = radioButton2.Enabled = radioButton3.Enabled = radioButton4.Enabled = radioButton5.Enabled = radioButton6.Enabled = true;
+
+                    radioButton2.Checked = false;
+
+                    comboBox1.SelectedIndex = 0;
+
+                    label18.Text = label17.Text = label16.Text = label15.Text = label14.Text = label2.Text = "";
+                }
+            }            
+            else if(radioButton3.Checked)
+            {
+                if (DateTime.Now < DateTime.Parse(ann))
+                {
+                    MessageBox.Show(
+                        "Время маршрута еще не закончилось",
+                        "Предупреждение",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Warning
+                    );
+                }
+                else
+                {
+                    button1.Enabled = button3.Enabled = true;
+
+                    radioButton1.Enabled = radioButton2.Enabled = radioButton3.Enabled = radioButton4.Enabled = radioButton5.Enabled = radioButton6.Enabled = true;
+
+                    radioButton3.Checked = false;
+
+                    comboBox1.SelectedIndex = 0;
+
+                    label2.Text = label28.Text = label27.Text = label26.Text = label25.Text = label24.Text = label34.Text = "";
+                }
+            }
+            else if(radioButton4.Checked)
+            {
+                if (DateTime.Now < DateTime.Parse(ann_prib))
+                {
+                    MessageBox.Show(
+                        "Время маршрута еще не закончилось",
+                        "Предупреждение",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Warning
+                    );
+                }
+                else
+                {
+                    button1.Enabled = button3.Enabled = true;
+
+                    radioButton1.Enabled = radioButton2.Enabled = radioButton3.Enabled = radioButton4.Enabled = radioButton5.Enabled = radioButton6.Enabled = true;
+
+                    radioButton4.Checked = false;
+
+                    comboBox1.SelectedIndex = 0;
+
+                    label2.Text = label42.Text = label41.Text = label40.Text = label39.Text = label38.Text = label36.Text = label49.Text = "";
+                }
+            }
+            else if(radioButton5.Checked)
+            {
+                if (DateTime.Now < DateTime.Parse(ann_prib2))
+                {
+                    MessageBox.Show(
+                        "Время маршрута еще не закончилось",
+                        "Предупреждение",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Warning
+                    );
+                }
+                else
+                {
+                    button1.Enabled = button3.Enabled = true;
+
+                    radioButton1.Enabled = radioButton2.Enabled = radioButton3.Enabled = radioButton4.Enabled = radioButton5.Enabled = radioButton6.Enabled = true;
+
+                    radioButton5.Checked = false;
+
+                    comboBox1.SelectedIndex = 0;
+
+                    label2.Text = label58.Text = label57.Text = label56.Text = label55.Text = label54.Text = label52.Text = label50.Text = "";
+                }
+            }
+            else if(radioButton6.Checked)
+            {
+                if (DateTime.Now < DateTime.Parse(sent_prib3))
+                {
+                    MessageBox.Show(
+                        "Время маршрута еще не закончилось",
+                        "Предупреждение",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Warning
+                    );
+                }
+                else
+                {
+                    button1.Enabled = button3.Enabled = true;
+
+                    radioButton1.Enabled = radioButton2.Enabled = radioButton3.Enabled = radioButton4.Enabled = radioButton5.Enabled = radioButton6.Enabled = true;
+
+                    radioButton6.Checked = false;
+
+                    comboBox1.SelectedIndex = 0;
+
+                    label2.Text = label70.Text = label69.Text = label68.Text = label67.Text = label66.Text = label64.Text = "";
+                }
             }
         }
     }
