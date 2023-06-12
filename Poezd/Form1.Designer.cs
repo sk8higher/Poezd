@@ -136,6 +136,7 @@
             label2.Name = "label2";
             label2.Size = new Size(288, 32);
             label2.TabIndex = 1;
+            label2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label3
             // 
@@ -181,7 +182,7 @@
             label4.ForeColor = Color.Red;
             label4.Location = new Point(32, 184);
             label4.Name = "label4";
-            label4.Size = new Size(104, 23);
+            label4.Size = new Size(88, 23);
             label4.TabIndex = 5;
             label4.Text = "Saint Denis";
             label4.TextAlign = ContentAlignment.MiddleCenter;
@@ -191,9 +192,9 @@
             label5.BackColor = SystemColors.InactiveCaption;
             label5.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label5.ForeColor = Color.Red;
-            label5.Location = new Point(144, 184);
+            label5.Location = new Point(128, 184);
             label5.Name = "label5";
-            label5.Size = new Size(72, 23);
+            label5.Size = new Size(80, 23);
             label5.TabIndex = 6;
             label5.Text = "Emerald";
             label5.TextAlign = ContentAlignment.MiddleCenter;
@@ -203,9 +204,9 @@
             label6.BackColor = SystemColors.InactiveCaption;
             label6.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label6.ForeColor = Color.Red;
-            label6.Location = new Point(224, 184);
+            label6.Location = new Point(216, 184);
             label6.Name = "label6";
-            label6.Size = new Size(72, 23);
+            label6.Size = new Size(80, 23);
             label6.TabIndex = 7;
             label6.Text = "Valentine";
             label6.TextAlign = ContentAlignment.MiddleCenter;
@@ -217,7 +218,7 @@
             label7.ForeColor = Color.Red;
             label7.Location = new Point(304, 184);
             label7.Name = "label7";
-            label7.Size = new Size(72, 23);
+            label7.Size = new Size(80, 23);
             label7.TabIndex = 8;
             label7.Text = "Rhodes";
             label7.TextAlign = ContentAlignment.MiddleCenter;
@@ -227,9 +228,9 @@
             label8.BackColor = SystemColors.InactiveCaption;
             label8.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label8.ForeColor = Color.Red;
-            label8.Location = new Point(384, 184);
+            label8.Location = new Point(392, 184);
             label8.Name = "label8";
-            label8.Size = new Size(96, 23);
+            label8.Size = new Size(88, 23);
             label8.TabIndex = 9;
             label8.Text = "Saint Denis";
             label8.TextAlign = ContentAlignment.MiddleCenter;
@@ -239,9 +240,9 @@
             label9.BackColor = SystemColors.InactiveCaption;
             label9.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label9.ForeColor = Color.Black;
-            label9.Location = new Point(40, 216);
+            label9.Location = new Point(32, 216);
             label9.Name = "label9";
-            label9.Size = new Size(80, 23);
+            label9.Size = new Size(88, 23);
             label9.TabIndex = 10;
             label9.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -250,9 +251,9 @@
             label10.BackColor = SystemColors.InactiveCaption;
             label10.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label10.ForeColor = Color.Black;
-            label10.Location = new Point(144, 216);
+            label10.Location = new Point(128, 216);
             label10.Name = "label10";
-            label10.Size = new Size(64, 23);
+            label10.Size = new Size(80, 23);
             label10.TabIndex = 11;
             label10.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -261,9 +262,9 @@
             label11.BackColor = SystemColors.InactiveCaption;
             label11.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label11.ForeColor = Color.Black;
-            label11.Location = new Point(224, 216);
+            label11.Location = new Point(216, 216);
             label11.Name = "label11";
-            label11.Size = new Size(72, 23);
+            label11.Size = new Size(80, 23);
             label11.TabIndex = 12;
             label11.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -274,7 +275,7 @@
             label12.ForeColor = Color.Black;
             label12.Location = new Point(304, 216);
             label12.Name = "label12";
-            label12.Size = new Size(72, 23);
+            label12.Size = new Size(80, 23);
             label12.TabIndex = 13;
             label12.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -285,7 +286,7 @@
             label13.ForeColor = Color.Black;
             label13.Location = new Point(392, 216);
             label13.Name = "label13";
-            label13.Size = new Size(80, 23);
+            label13.Size = new Size(88, 23);
             label13.TabIndex = 14;
             label13.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -296,7 +297,7 @@
             label14.ForeColor = Color.Black;
             label14.Location = new Point(392, 328);
             label14.Name = "label14";
-            label14.Size = new Size(80, 23);
+            label14.Size = new Size(88, 23);
             label14.TabIndex = 25;
             label14.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -307,7 +308,7 @@
             label15.ForeColor = Color.Black;
             label15.Location = new Point(304, 328);
             label15.Name = "label15";
-            label15.Size = new Size(72, 23);
+            label15.Size = new Size(80, 23);
             label15.TabIndex = 24;
             label15.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -316,9 +317,9 @@
             label16.BackColor = SystemColors.InactiveCaption;
             label16.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label16.ForeColor = Color.Black;
-            label16.Location = new Point(224, 328);
+            label16.Location = new Point(216, 328);
             label16.Name = "label16";
-            label16.Size = new Size(72, 23);
+            label16.Size = new Size(80, 23);
             label16.TabIndex = 23;
             label16.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -327,9 +328,9 @@
             label17.BackColor = SystemColors.InactiveCaption;
             label17.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label17.ForeColor = Color.Black;
-            label17.Location = new Point(144, 328);
+            label17.Location = new Point(128, 328);
             label17.Name = "label17";
-            label17.Size = new Size(64, 23);
+            label17.Size = new Size(80, 23);
             label17.TabIndex = 22;
             label17.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -338,9 +339,9 @@
             label18.BackColor = SystemColors.InactiveCaption;
             label18.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label18.ForeColor = Color.Black;
-            label18.Location = new Point(40, 328);
+            label18.Location = new Point(32, 328);
             label18.Name = "label18";
-            label18.Size = new Size(80, 23);
+            label18.Size = new Size(88, 23);
             label18.TabIndex = 21;
             label18.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -349,9 +350,9 @@
             label19.BackColor = SystemColors.InactiveCaption;
             label19.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label19.ForeColor = Color.Red;
-            label19.Location = new Point(384, 296);
+            label19.Location = new Point(392, 296);
             label19.Name = "label19";
-            label19.Size = new Size(96, 23);
+            label19.Size = new Size(88, 23);
             label19.TabIndex = 20;
             label19.Text = "Saint Denis";
             label19.TextAlign = ContentAlignment.MiddleCenter;
@@ -363,7 +364,7 @@
             label20.ForeColor = Color.Red;
             label20.Location = new Point(304, 296);
             label20.Name = "label20";
-            label20.Size = new Size(72, 23);
+            label20.Size = new Size(80, 23);
             label20.TabIndex = 19;
             label20.Text = "Emerald";
             label20.TextAlign = ContentAlignment.MiddleCenter;
@@ -373,9 +374,9 @@
             label21.BackColor = SystemColors.InactiveCaption;
             label21.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label21.ForeColor = Color.Red;
-            label21.Location = new Point(224, 296);
+            label21.Location = new Point(216, 296);
             label21.Name = "label21";
-            label21.Size = new Size(72, 23);
+            label21.Size = new Size(80, 23);
             label21.TabIndex = 18;
             label21.Text = "Valentine";
             label21.TextAlign = ContentAlignment.MiddleCenter;
@@ -385,9 +386,9 @@
             label22.BackColor = SystemColors.InactiveCaption;
             label22.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label22.ForeColor = Color.Red;
-            label22.Location = new Point(144, 296);
+            label22.Location = new Point(128, 296);
             label22.Name = "label22";
-            label22.Size = new Size(72, 23);
+            label22.Size = new Size(80, 23);
             label22.TabIndex = 17;
             label22.Text = "Rhodes";
             label22.TextAlign = ContentAlignment.MiddleCenter;
@@ -399,7 +400,7 @@
             label23.ForeColor = Color.Red;
             label23.Location = new Point(32, 296);
             label23.Name = "label23";
-            label23.Size = new Size(104, 23);
+            label23.Size = new Size(88, 23);
             label23.TabIndex = 16;
             label23.Text = "Saint Denis";
             label23.TextAlign = ContentAlignment.MiddleCenter;
@@ -423,9 +424,9 @@
             label24.BackColor = SystemColors.InactiveCaption;
             label24.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label24.ForeColor = Color.Black;
-            label24.Location = new Point(392, 440);
+            label24.Location = new Point(416, 440);
             label24.Name = "label24";
-            label24.Size = new Size(80, 23);
+            label24.Size = new Size(88, 23);
             label24.TabIndex = 36;
             label24.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -434,9 +435,9 @@
             label25.BackColor = SystemColors.InactiveCaption;
             label25.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label25.ForeColor = Color.Black;
-            label25.Location = new Point(304, 440);
+            label25.Location = new Point(320, 440);
             label25.Name = "label25";
-            label25.Size = new Size(72, 23);
+            label25.Size = new Size(88, 23);
             label25.TabIndex = 35;
             label25.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -447,7 +448,7 @@
             label26.ForeColor = Color.Black;
             label26.Location = new Point(224, 440);
             label26.Name = "label26";
-            label26.Size = new Size(72, 23);
+            label26.Size = new Size(88, 23);
             label26.TabIndex = 34;
             label26.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -456,9 +457,9 @@
             label27.BackColor = SystemColors.InactiveCaption;
             label27.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label27.ForeColor = Color.Black;
-            label27.Location = new Point(144, 440);
+            label27.Location = new Point(128, 440);
             label27.Name = "label27";
-            label27.Size = new Size(64, 23);
+            label27.Size = new Size(88, 23);
             label27.TabIndex = 33;
             label27.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -467,9 +468,9 @@
             label28.BackColor = SystemColors.InactiveCaption;
             label28.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label28.ForeColor = Color.Black;
-            label28.Location = new Point(40, 440);
+            label28.Location = new Point(32, 440);
             label28.Name = "label28";
-            label28.Size = new Size(80, 23);
+            label28.Size = new Size(88, 23);
             label28.TabIndex = 32;
             label28.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -478,9 +479,9 @@
             label29.BackColor = SystemColors.InactiveCaption;
             label29.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label29.ForeColor = Color.Red;
-            label29.Location = new Point(384, 408);
+            label29.Location = new Point(416, 408);
             label29.Name = "label29";
-            label29.Size = new Size(96, 23);
+            label29.Size = new Size(88, 23);
             label29.TabIndex = 31;
             label29.Text = "Saint Denis";
             label29.TextAlign = ContentAlignment.MiddleCenter;
@@ -490,9 +491,9 @@
             label30.BackColor = SystemColors.InactiveCaption;
             label30.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label30.ForeColor = Color.Red;
-            label30.Location = new Point(304, 408);
+            label30.Location = new Point(320, 408);
             label30.Name = "label30";
-            label30.Size = new Size(72, 23);
+            label30.Size = new Size(88, 23);
             label30.TabIndex = 30;
             label30.Text = "Rhodes";
             label30.TextAlign = ContentAlignment.MiddleCenter;
@@ -504,7 +505,7 @@
             label31.ForeColor = Color.Red;
             label31.Location = new Point(224, 408);
             label31.Name = "label31";
-            label31.Size = new Size(72, 23);
+            label31.Size = new Size(88, 23);
             label31.TabIndex = 29;
             label31.Text = "Valentine";
             label31.TextAlign = ContentAlignment.MiddleCenter;
@@ -514,9 +515,9 @@
             label32.BackColor = SystemColors.InactiveCaption;
             label32.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label32.ForeColor = Color.Red;
-            label32.Location = new Point(144, 408);
+            label32.Location = new Point(128, 408);
             label32.Name = "label32";
-            label32.Size = new Size(72, 23);
+            label32.Size = new Size(88, 23);
             label32.TabIndex = 28;
             label32.Text = "Emerald";
             label32.TextAlign = ContentAlignment.MiddleCenter;
@@ -528,7 +529,7 @@
             label33.ForeColor = Color.Red;
             label33.Location = new Point(32, 408);
             label33.Name = "label33";
-            label33.Size = new Size(104, 23);
+            label33.Size = new Size(88, 23);
             label33.TabIndex = 27;
             label33.Text = "Saint Denis";
             label33.TextAlign = ContentAlignment.MiddleCenter;
@@ -541,7 +542,7 @@
             radioButton3.Location = new Point(32, 368);
             radioButton3.Name = "radioButton3";
             radioButton3.Padding = new Padding(5, 0, 0, 0);
-            radioButton3.Size = new Size(448, 32);
+            radioButton3.Size = new Size(544, 32);
             radioButton3.TabIndex = 26;
             radioButton3.TabStop = true;
             radioButton3.Text = "Saint Denis - Emerald - Valentine - Rhodes - Saint Denis - Annesburg";
@@ -552,9 +553,9 @@
             label34.BackColor = SystemColors.InactiveCaption;
             label34.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label34.ForeColor = Color.Black;
-            label34.Location = new Point(496, 440);
+            label34.Location = new Point(512, 440);
             label34.Name = "label34";
-            label34.Size = new Size(80, 23);
+            label34.Size = new Size(88, 23);
             label34.TabIndex = 38;
             label34.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -563,9 +564,9 @@
             label35.BackColor = SystemColors.InactiveCaption;
             label35.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label35.ForeColor = Color.Red;
-            label35.Location = new Point(488, 408);
+            label35.Location = new Point(512, 408);
             label35.Name = "label35";
-            label35.Size = new Size(96, 23);
+            label35.Size = new Size(88, 23);
             label35.TabIndex = 37;
             label35.Text = "Annesburg";
             label35.TextAlign = ContentAlignment.MiddleCenter;
@@ -575,9 +576,9 @@
             label36.BackColor = SystemColors.InactiveCaption;
             label36.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label36.ForeColor = Color.Black;
-            label36.Location = new Point(432, 544);
+            label36.Location = new Point(472, 544);
             label36.Name = "label36";
-            label36.Size = new Size(64, 23);
+            label36.Size = new Size(80, 23);
             label36.TabIndex = 51;
             label36.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -586,7 +587,7 @@
             label37.BackColor = SystemColors.InactiveCaption;
             label37.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label37.ForeColor = Color.Red;
-            label37.Location = new Point(424, 512);
+            label37.Location = new Point(472, 512);
             label37.Name = "label37";
             label37.Size = new Size(80, 23);
             label37.TabIndex = 50;
@@ -598,9 +599,9 @@
             label38.BackColor = SystemColors.InactiveCaption;
             label38.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label38.ForeColor = Color.Black;
-            label38.Location = new Point(352, 544);
+            label38.Location = new Point(384, 544);
             label38.Name = "label38";
-            label38.Size = new Size(64, 23);
+            label38.Size = new Size(80, 23);
             label38.TabIndex = 49;
             label38.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -609,9 +610,9 @@
             label39.BackColor = SystemColors.InactiveCaption;
             label39.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label39.ForeColor = Color.Black;
-            label39.Location = new Point(280, 544);
+            label39.Location = new Point(296, 544);
             label39.Name = "label39";
-            label39.Size = new Size(56, 23);
+            label39.Size = new Size(80, 23);
             label39.TabIndex = 48;
             label39.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -620,9 +621,9 @@
             label40.BackColor = SystemColors.InactiveCaption;
             label40.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label40.ForeColor = Color.Black;
-            label40.Location = new Point(200, 544);
+            label40.Location = new Point(208, 544);
             label40.Name = "label40";
-            label40.Size = new Size(64, 23);
+            label40.Size = new Size(80, 23);
             label40.TabIndex = 47;
             label40.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -633,7 +634,7 @@
             label41.ForeColor = Color.Black;
             label41.Location = new Point(120, 544);
             label41.Name = "label41";
-            label41.Size = new Size(64, 23);
+            label41.Size = new Size(80, 23);
             label41.TabIndex = 46;
             label41.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -642,9 +643,9 @@
             label42.BackColor = SystemColors.InactiveCaption;
             label42.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label42.ForeColor = Color.Black;
-            label42.Location = new Point(40, 544);
+            label42.Location = new Point(32, 544);
             label42.Name = "label42";
-            label42.Size = new Size(64, 23);
+            label42.Size = new Size(80, 23);
             label42.TabIndex = 45;
             label42.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -653,9 +654,9 @@
             label43.BackColor = SystemColors.InactiveCaption;
             label43.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label43.ForeColor = Color.Red;
-            label43.Location = new Point(352, 512);
+            label43.Location = new Point(384, 512);
             label43.Name = "label43";
-            label43.Size = new Size(64, 23);
+            label43.Size = new Size(80, 23);
             label43.TabIndex = 44;
             label43.Text = "Rhodes";
             label43.TextAlign = ContentAlignment.MiddleCenter;
@@ -665,9 +666,9 @@
             label44.BackColor = SystemColors.InactiveCaption;
             label44.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label44.ForeColor = Color.Red;
-            label44.Location = new Point(272, 512);
+            label44.Location = new Point(296, 512);
             label44.Name = "label44";
-            label44.Size = new Size(72, 23);
+            label44.Size = new Size(80, 23);
             label44.TabIndex = 43;
             label44.Text = "Valentine";
             label44.TextAlign = ContentAlignment.MiddleCenter;
@@ -677,9 +678,9 @@
             label45.BackColor = SystemColors.InactiveCaption;
             label45.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label45.ForeColor = Color.Red;
-            label45.Location = new Point(200, 512);
+            label45.Location = new Point(208, 512);
             label45.Name = "label45";
-            label45.Size = new Size(64, 23);
+            label45.Size = new Size(80, 23);
             label45.TabIndex = 42;
             label45.Text = "Emerald";
             label45.TextAlign = ContentAlignment.MiddleCenter;
@@ -691,7 +692,7 @@
             label46.ForeColor = Color.Red;
             label46.Location = new Point(120, 512);
             label46.Name = "label46";
-            label46.Size = new Size(72, 23);
+            label46.Size = new Size(80, 23);
             label46.TabIndex = 41;
             label46.Text = "Saint Denis";
             label46.TextAlign = ContentAlignment.MiddleCenter;
@@ -727,7 +728,7 @@
             label48.BackColor = SystemColors.InactiveCaption;
             label48.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label48.ForeColor = Color.Red;
-            label48.Location = new Point(512, 512);
+            label48.Location = new Point(560, 512);
             label48.Name = "label48";
             label48.Size = new Size(80, 23);
             label48.TabIndex = 52;
@@ -739,9 +740,9 @@
             label49.BackColor = SystemColors.InactiveCaption;
             label49.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label49.ForeColor = Color.Black;
-            label49.Location = new Point(520, 544);
+            label49.Location = new Point(560, 544);
             label49.Name = "label49";
-            label49.Size = new Size(64, 23);
+            label49.Size = new Size(80, 23);
             label49.TabIndex = 53;
             label49.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -1083,6 +1084,7 @@
             button1.TabIndex = 82;
             button1.Text = "Расписание";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -1124,7 +1126,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(606, 868);
+            ClientSize = new Size(646, 868);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
@@ -1211,6 +1213,8 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "Form1";
             Text = "RE";
             Load += Form1_Load;
