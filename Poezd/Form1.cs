@@ -7,7 +7,7 @@
         private int hour, minute, second;
         private int r, v;
 
-        private string b; // кол-во баллов
+        private double b; // кол-во баллов
         private int m; // кол-во рейсов
 
         private string sent, ann, emm, valen, rou, sent_prib, sent_prib2, sent_prib3, ann_prib, ann_prib2;
@@ -262,7 +262,7 @@
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if(radioButton1.Checked)
+            if (radioButton1.Checked)
             {
                 if (DateTime.Now < DateTime.Parse(sent_prib))
                 {
@@ -286,7 +286,7 @@
                     label2.Text = label9.Text = label10.Text = label11.Text = label12.Text = label13.Text = "";
                 }
             }
-            else if(radioButton2.Checked)
+            else if (radioButton2.Checked)
             {
                 if (DateTime.Now < DateTime.Parse(sent_prib2))
                 {
@@ -309,8 +309,8 @@
 
                     label18.Text = label17.Text = label16.Text = label15.Text = label14.Text = label2.Text = "";
                 }
-            }            
-            else if(radioButton3.Checked)
+            }
+            else if (radioButton3.Checked)
             {
                 if (DateTime.Now < DateTime.Parse(ann))
                 {
@@ -334,7 +334,7 @@
                     label2.Text = label28.Text = label27.Text = label26.Text = label25.Text = label24.Text = label34.Text = "";
                 }
             }
-            else if(radioButton4.Checked)
+            else if (radioButton4.Checked)
             {
                 if (DateTime.Now < DateTime.Parse(ann_prib))
                 {
@@ -358,7 +358,7 @@
                     label2.Text = label42.Text = label41.Text = label40.Text = label39.Text = label38.Text = label36.Text = label49.Text = "";
                 }
             }
-            else if(radioButton5.Checked)
+            else if (radioButton5.Checked)
             {
                 if (DateTime.Now < DateTime.Parse(ann_prib2))
                 {
@@ -382,7 +382,7 @@
                     label2.Text = label58.Text = label57.Text = label56.Text = label55.Text = label54.Text = label52.Text = label50.Text = "";
                 }
             }
-            else if(radioButton6.Checked)
+            else if (radioButton6.Checked)
             {
                 if (DateTime.Now < DateTime.Parse(sent_prib3))
                 {
@@ -404,7 +404,38 @@
                     comboBox1.SelectedIndex = 0;
 
                     label2.Text = label70.Text = label69.Text = label68.Text = label67.Text = label66.Text = label64.Text = "";
+            }
+        }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show(
+                "Вы уверены что хотите выйти?",
+                "Подтверждение",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question
+            );
+
+            if (result == DialogResult.Yes)
+            {
+                string fileName = "1.txt";
+                string filePath = Path.Combine(Environment.CurrentDirectory, fileName);
+                using (StreamWriter writer = new(filePath))
+                {
+                    writer.WriteLine($"Кол-во рейсов = {m};");
+                    writer.WriteLine($"Кол-во баллов = {b};");
+                    writer.WriteLine($"Дата = {DateTime.Now:d} {DateTime.Now:T}");
                 }
+
+                MessageBox.Show(
+                    "Отчет сохранен",
+                    "Сохранение",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information
+                );
+
+                Application.Exit();
             }
         }
     }
