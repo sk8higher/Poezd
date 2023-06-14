@@ -4,6 +4,8 @@
     {
         private DateTime time;
 
+        private Form2 secondForm = new();
+
         private int hour, minute, second;
         private int r, v;
 
@@ -24,10 +26,15 @@
             comboBox1.SelectedIndex = 0;
             b = m = 0;
             button2.Enabled = button4.Enabled = false;
+
+            secondForm.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // Получаем ссылку на вторую форму
+            Form2 secondForm = Application.OpenForms.OfType<Form2>().FirstOrDefault();
+
             time = DateTime.Now;
             label2.Text = $"Время {time:T}";
 
@@ -54,14 +61,33 @@
                 // добавляем минуты ко времени и обнуляем секунды
                 label9.Text = $"{time.AddMinutes(2 + r).AddSeconds(-time.Second):T}";
                 sent = label9.Text;
+                
+                secondForm.label1.Text = "Saint Denis";
+                secondForm.label2.Text = sent;
+
                 label10.Text = $"{time.AddMinutes(7 + r).AddSeconds(-time.Second):T}";
                 emm = label10.Text;
+
+                secondForm.label4.Text = "Emerald";
+                secondForm.label3.Text = emm;
+
                 label11.Text = $"{time.AddMinutes(12 + r).AddSeconds(-time.Second):T}";
                 valen = label11.Text;
+
+                secondForm.label6.Text = "Valentine";
+                secondForm.label5.Text = valen;
+
                 label12.Text = $"{time.AddMinutes(16 + r).AddSeconds(-time.Second):T}";
                 rou = label12.Text;
+
+                secondForm.label8.Text = "Rhodes";
+                secondForm.label7.Text = rou;
+
                 label13.Text = $"{time.AddMinutes(18 + r).AddSeconds(-time.Second):T}";
                 sent_prib = label13.Text;
+
+                secondForm.label10.Text = "Saint Denis";
+                secondForm.label9.Text = sent_prib;
 
                 radioButton2.Enabled = radioButton3.Enabled = radioButton4.Enabled = radioButton5.Enabled = radioButton6.Enabled = false;
 
@@ -74,14 +100,33 @@
 
                 label18.Text = $"{time.AddMinutes(2 + r).AddSeconds(-time.Second):T}";
                 sent = label18.Text;
+
+                secondForm.label1.Text = "Saint Denis";
+                secondForm.label2.Text = sent;
+
                 label17.Text = $"{time.AddMinutes(5 + r).AddSeconds(-time.Second):T}";
                 rou = label17.Text;
+
+                secondForm.label4.Text = "Rhodes";
+                secondForm.label3.Text = rou;
+
                 label16.Text = $"{time.AddMinutes(10 + r).AddSeconds(-time.Second):T}";
                 valen = label16.Text;
+
+                secondForm.label6.Text = "Valentine";
+                secondForm.label5.Text = valen;
+
                 label15.Text = $"{time.AddMinutes(14 + r).AddSeconds(-time.Second):T}";
                 emm = label15.Text;
+
+                secondForm.label8.Text = "Emerald";
+                secondForm.label7.Text = emm;
+
                 label14.Text = $"{time.AddMinutes(18 + r).AddSeconds(-time.Second):T}";
                 sent_prib2 = label14.Text;
+
+                secondForm.label10.Text = "Saint Denis";
+                secondForm.label9.Text = sent_prib2;
 
                 radioButton1.Enabled = radioButton3.Enabled = radioButton4.Enabled = radioButton5.Enabled = radioButton6.Enabled = false;
 
@@ -94,16 +139,41 @@
 
                 label28.Text = $"{time.AddMinutes(2 + r).AddSeconds(-time.Second):T}";
                 sent = label28.Text;
+
+                secondForm.label1.Text = "Saint Denis";
+                secondForm.label2.Text = sent;
+
                 label27.Text = $"{time.AddMinutes(7 + r).AddSeconds(-time.Second):T}";
                 emm = label27.Text;
+
+                secondForm.label4.Text = "Emerald";
+                secondForm.label3.Text = emm;
+
                 label26.Text = $"{time.AddMinutes(12 + r).AddSeconds(-time.Second):T}";
                 valen = label26.Text;
+
+                secondForm.label6.Text = "Valentine";
+                secondForm.label5.Text = valen;
+
                 label25.Text = $"{time.AddMinutes(16 + r).AddSeconds(-time.Second):T}";
                 rou = label25.Text;
+
+                secondForm.label8.Text = "Rhodes";
+                secondForm.label7.Text = rou;
+
                 label24.Text = $"{time.AddMinutes(19 + r).AddSeconds(-time.Second):T}";
                 sent_prib = label24.Text;
+
+                secondForm.label10.Text = "Saint Denis";
+                secondForm.label9.Text = sent_prib;
+
                 label34.Text = $"{time.AddMinutes(23 + r).AddSeconds(-time.Second):T}";
                 ann = label34.Text;
+
+                secondForm.Width += 96;
+
+                secondForm.label12.Text = "Annesburg";
+                secondForm.label11.Text = ann;
 
                 radioButton1.Enabled = radioButton2.Enabled = radioButton4.Enabled = radioButton5.Enabled = radioButton6.Enabled = false;
 
@@ -116,18 +186,47 @@
 
                 label42.Text = $"{time.AddMinutes(2 + r).AddSeconds(-time.Second):T}";
                 ann = label42.Text;
+
+                secondForm.label1.Text = "Annesburg";
+                secondForm.label2.Text = ann;
+
                 label41.Text = $"{time.AddMinutes(7 + r).AddSeconds(-time.Second):T}";
                 sent = label41.Text;
+
+                secondForm.label4.Text = "Saint Denis";
+                secondForm.label3.Text = sent;
+
                 label40.Text = $"{time.AddMinutes(12 + r).AddSeconds(-time.Second):T}";
                 emm = label40.Text;
+
+                secondForm.label6.Text = "Emerald";
+                secondForm.label5.Text = emm;
+
                 label39.Text = $"{time.AddMinutes(17 + r).AddSeconds(-time.Second):T}";
                 valen = label39.Text;
+
+                secondForm.label8.Text = "Valentine";
+                secondForm.label7.Text = valen;
+
                 label38.Text = $"{time.AddMinutes(21 + r).AddSeconds(-time.Second):T}";
                 rou = label38.Text;
+
+                secondForm.label10.Text = "Rhodes";
+                secondForm.label9.Text = rou;
+
                 label36.Text = $"{time.AddMinutes(24 + r).AddSeconds(-time.Second):T}";
                 sent_prib = label36.Text;
+
+                secondForm.Width += 96;
+                secondForm.label12.Text = "Saint Dennis";
+                secondForm.label11.Text = sent_prib;
+
                 label49.Text = $"{time.AddMinutes(28 + r).AddSeconds(-time.Second):T}";
                 ann_prib = label49.Text;
+
+                secondForm.Width += 96;
+                secondForm.label14.Text = "Annesburg";
+                secondForm.label13.Text = ann_prib;
 
                 radioButton1.Enabled = radioButton2.Enabled = radioButton3.Enabled = radioButton5.Enabled = radioButton6.Enabled = false;
 
@@ -140,18 +239,47 @@
 
                 label58.Text = $"{time.AddMinutes(2 + r).AddSeconds(-time.Second):T}";
                 ann = label58.Text;
+
+                secondForm.label1.Text = "Annesburg";
+                secondForm.label2.Text = ann;
+
                 label57.Text = $"{time.AddMinutes(7 + r).AddSeconds(-time.Second):T}";
                 sent = label57.Text;
+
+                secondForm.label4.Text = "Saint Denis";
+                secondForm.label3.Text = sent;
+
                 label56.Text = $"{time.AddMinutes(10 + r).AddSeconds(-time.Second):T}";
                 rou = label56.Text;
+
+                secondForm.label6.Text = "Rhodes";
+                secondForm.label5.Text = rou;
+
                 label55.Text = $"{time.AddMinutes(15 + r).AddSeconds(-time.Second):T}";
                 valen = label55.Text;
+
+                secondForm.label8.Text = "Valentine";
+                secondForm.label7.Text = valen;
+
                 label54.Text = $"{time.AddMinutes(19 + r).AddSeconds(-time.Second):T}";
                 emm = label54.Text;
+
+                secondForm.label10.Text = "Emerald";
+                secondForm.label9.Text = emm;
+
                 label52.Text = $"{time.AddMinutes(22 + r).AddSeconds(-time.Second):T}";
                 sent_prib = label52.Text;
+
+                secondForm.Width += 96;
+                secondForm.label12.Text = "Saint Dennis";
+                secondForm.label11.Text = sent_prib;
+
                 label50.Text = $"{time.AddMinutes(26 + r).AddSeconds(-time.Second):T}";
                 ann_prib2 = label50.Text;
+
+                secondForm.Width += 96;
+                secondForm.label14.Text = "Annesburg";
+                secondForm.label13.Text = ann_prib2;
 
                 radioButton1.Enabled = radioButton2.Enabled = radioButton3.Enabled = radioButton4.Enabled = radioButton6.Enabled = false;
 
@@ -164,16 +292,40 @@
 
                 label70.Text = $"{time.AddMinutes(2 + r).AddSeconds(-time.Second):T}";
                 ann = label70.Text;
+
+                secondForm.label1.Text = "Annesburg";
+                secondForm.label2.Text = ann;
+
                 label69.Text = $"{time.AddMinutes(7 + r).AddSeconds(-time.Second):T}";
                 sent = label69.Text;
+
+                secondForm.label4.Text = "Saint Denis";
+                secondForm.label3.Text = sent;
+
                 label68.Text = $"{time.AddMinutes(12 + r).AddSeconds(-time.Second):T}";
                 emm = label68.Text;
+
+                secondForm.label6.Text = "Emerald";
+                secondForm.label5.Text = emm;
+
                 label67.Text = $"{time.AddMinutes(17 + r).AddSeconds(-time.Second):T}";
                 valen = label67.Text;
+
+                secondForm.label8.Text = "Valentine";
+                secondForm.label7.Text = valen;
+
                 label66.Text = $"{time.AddMinutes(21 + r).AddSeconds(-time.Second):T}";
                 rou = label66.Text;
+
+                secondForm.label10.Text = "Rhodes";
+                secondForm.label9.Text = rou;
+
                 label64.Text = $"{time.AddMinutes(24 + r).AddSeconds(-time.Second):T}";
                 sent_prib3 = label64.Text;
+
+                secondForm.Width += 96;
+                secondForm.label12.Text = "Saint Dennis";
+                secondForm.label11.Text = sent_prib3;
 
                 radioButton1.Enabled = radioButton2.Enabled = radioButton3.Enabled = radioButton4.Enabled = radioButton5.Enabled = false;
 
@@ -290,6 +442,8 @@
                     comboBox1.SelectedIndex = 0;
 
                     label2.Text = label9.Text = label10.Text = label11.Text = label12.Text = label13.Text = "";
+
+                    secondForm.label1.Text = secondForm.label2.Text = secondForm.label3.Text = secondForm.label4.Text = secondForm.label5.Text = secondForm.label6.Text = secondForm.label7.Text = secondForm.label8.Text = secondForm.label9.Text = secondForm.label10.Text = "";
                 }
             }
             else if (radioButton2.Checked)
@@ -314,6 +468,8 @@
                     comboBox1.SelectedIndex = 0;
 
                     label18.Text = label17.Text = label16.Text = label15.Text = label14.Text = label2.Text = "";
+
+                    secondForm.label1.Text = secondForm.label2.Text = secondForm.label3.Text = secondForm.label4.Text = secondForm.label5.Text = secondForm.label6.Text = secondForm.label7.Text = secondForm.label8.Text = secondForm.label9.Text = secondForm.label10.Text = "";
                 }
             }
             else if (radioButton3.Checked)
@@ -338,6 +494,10 @@
                     comboBox1.SelectedIndex = 0;
 
                     label2.Text = label28.Text = label27.Text = label26.Text = label25.Text = label24.Text = label34.Text = "";
+
+                    secondForm.Width -= 96;
+
+                    secondForm.label1.Text = secondForm.label2.Text = secondForm.label3.Text = secondForm.label4.Text = secondForm.label5.Text = secondForm.label6.Text = secondForm.label7.Text = secondForm.label8.Text = secondForm.label9.Text = secondForm.label10.Text = secondForm.label11.Text = secondForm.label12.Text = "";
                 }
             }
             else if (radioButton4.Checked)
@@ -362,6 +522,10 @@
                     comboBox1.SelectedIndex = 0;
 
                     label2.Text = label42.Text = label41.Text = label40.Text = label39.Text = label38.Text = label36.Text = label49.Text = "";
+
+                    secondForm.Width -= 192;
+
+                    secondForm.label1.Text = secondForm.label2.Text = secondForm.label3.Text = secondForm.label4.Text = secondForm.label5.Text = secondForm.label6.Text = secondForm.label7.Text = secondForm.label8.Text = secondForm.label9.Text = secondForm.label10.Text = secondForm.label11.Text = secondForm.label12.Text = secondForm.label13.Text = secondForm.label14.Text = "";
                 }
             }
             else if (radioButton5.Checked)
@@ -386,6 +550,10 @@
                     comboBox1.SelectedIndex = 0;
 
                     label2.Text = label58.Text = label57.Text = label56.Text = label55.Text = label54.Text = label52.Text = label50.Text = "";
+
+                    secondForm.Width -= 192;
+
+                    secondForm.label1.Text = secondForm.label2.Text = secondForm.label3.Text = secondForm.label4.Text = secondForm.label5.Text = secondForm.label6.Text = secondForm.label7.Text = secondForm.label8.Text = secondForm.label9.Text = secondForm.label10.Text = secondForm.label11.Text = secondForm.label12.Text = secondForm.label13.Text = secondForm.label14.Text = "";
                 }
             }
             else if (radioButton6.Checked)
@@ -410,6 +578,10 @@
                     comboBox1.SelectedIndex = 0;
 
                     label2.Text = label70.Text = label69.Text = label68.Text = label67.Text = label66.Text = label64.Text = "";
+
+                    secondForm.Width -= 96;
+
+                    secondForm.label1.Text = secondForm.label2.Text = secondForm.label3.Text = secondForm.label4.Text = secondForm.label5.Text = secondForm.label6.Text = secondForm.label7.Text = secondForm.label8.Text = secondForm.label9.Text = secondForm.label10.Text = secondForm.label11.Text = secondForm.label12.Text = secondForm.label13.Text = secondForm.label14.Text = "";
                 }
             }
         }
@@ -468,21 +640,29 @@
             {
                 m -= 1;
                 b -= 1.2;
+
+                secondForm.Width -= 96;
             }
             else if (radioButton4.Checked)
             {
                 m -= 1;
                 b -= 1.35;
+
+                secondForm.Width -= 192;
             }
             else if (radioButton5.Checked)
             {
                 m -= 1;
                 b -= 1.35;
+
+                secondForm.Width -= 192;
             }
             else if (radioButton6.Checked)
             {
                 m -= 1;
                 b -= 1.2;
+
+                secondForm.Width -= 96;
             }
 
 
@@ -498,6 +678,8 @@
             label42.Text = label41.Text = label40.Text = label39.Text = label38.Text = label36.Text = label49.Text = "";
             label58.Text = label57.Text = label56.Text = label55.Text = label54.Text = label52.Text = label50.Text = "";
             label70.Text = label69.Text = label68.Text = label67.Text = label66.Text = label64.Text = "";
+
+            secondForm.label1.Text = secondForm.label2.Text = secondForm.label3.Text = secondForm.label4.Text = secondForm.label5.Text = secondForm.label6.Text = secondForm.label7.Text = secondForm.label8.Text = secondForm.label9.Text = secondForm.label10.Text = secondForm.label11.Text = secondForm.label12.Text = secondForm.label13.Text = secondForm.label14.Text = "";
 
             MessageBox.Show(
                 "Запись удалена",
