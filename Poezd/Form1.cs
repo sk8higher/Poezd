@@ -67,12 +67,27 @@
 
                 label10.Text = $"{time.AddMinutes(7 + r).AddSeconds(-time.Second):T}";
                 emm = label10.Text;
+
+                secondForm.label4.Text = "Emerald";
+                secondForm.label3.Text = emm;
+
                 label11.Text = $"{time.AddMinutes(12 + r).AddSeconds(-time.Second):T}";
                 valen = label11.Text;
+
+                secondForm.label6.Text = "Valentine";
+                secondForm.label5.Text = valen;
+
                 label12.Text = $"{time.AddMinutes(16 + r).AddSeconds(-time.Second):T}";
                 rou = label12.Text;
+
+                secondForm.label8.Text = "Rhodes";
+                secondForm.label7.Text = rou;
+
                 label13.Text = $"{time.AddMinutes(18 + r).AddSeconds(-time.Second):T}";
                 sent_prib = label13.Text;
+
+                secondForm.label10.Text = "Saint Denis";
+                secondForm.label9.Text = sent_prib;
 
                 radioButton2.Enabled = radioButton3.Enabled = radioButton4.Enabled = radioButton5.Enabled = radioButton6.Enabled = false;
 
