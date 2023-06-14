@@ -38,6 +38,10 @@
             label8 = new Label();
             label9 = new Label();
             label10 = new Label();
+            label11 = new Label();
+            label12 = new Label();
+            label13 = new Label();
+            label14 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -150,12 +154,60 @@
             label10.TabIndex = 14;
             label10.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // label11
+            // 
+            label11.BackColor = SystemColors.InactiveCaption;
+            label11.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label11.ForeColor = Color.Black;
+            label11.Location = new Point(488, 40);
+            label11.Name = "label11";
+            label11.Size = new Size(88, 23);
+            label11.TabIndex = 17;
+            label11.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label12
+            // 
+            label12.BackColor = SystemColors.InactiveCaption;
+            label12.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label12.ForeColor = Color.Red;
+            label12.Location = new Point(488, 8);
+            label12.Name = "label12";
+            label12.Size = new Size(88, 23);
+            label12.TabIndex = 16;
+            label12.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label13
+            // 
+            label13.BackColor = SystemColors.InactiveCaption;
+            label13.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label13.ForeColor = Color.Black;
+            label13.Location = new Point(584, 40);
+            label13.Name = "label13";
+            label13.Size = new Size(88, 23);
+            label13.TabIndex = 19;
+            label13.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label14
+            // 
+            label14.BackColor = SystemColors.InactiveCaption;
+            label14.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label14.ForeColor = Color.Red;
+            label14.Location = new Point(584, 8);
+            label14.Name = "label14";
+            label14.Size = new Size(88, 23);
+            label14.TabIndex = 18;
+            label14.TextAlign = ContentAlignment.MiddleCenter;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(485, 70);
+            ClientSize = new Size(486, 70);
             ControlBox = false;
+            Controls.Add(label13);
+            Controls.Add(label14);
+            Controls.Add(label11);
+            Controls.Add(label12);
             Controls.Add(label9);
             Controls.Add(label10);
             Controls.Add(label7);
@@ -188,5 +240,9 @@
         public Label label8;
         public Label label9;
         public Label label10;
+        public Label label11;
+        public Label label12;
+        public Label label13;
+        public Label label14;
     }
 }
