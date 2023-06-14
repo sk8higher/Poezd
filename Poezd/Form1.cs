@@ -24,6 +24,9 @@
             comboBox1.SelectedIndex = 0;
             b = m = 0;
             button2.Enabled = button4.Enabled = false;
+
+            Form2 secondForm = new Form2();
+            secondForm.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
