@@ -442,6 +442,8 @@
                     comboBox1.SelectedIndex = 0;
 
                     label2.Text = label9.Text = label10.Text = label11.Text = label12.Text = label13.Text = "";
+
+                    secondForm.label1.Text = secondForm.label2.Text = secondForm.label3.Text = secondForm.label4.Text = secondForm.label5.Text = secondForm.label6.Text = secondForm.label7.Text = secondForm.label8.Text = secondForm.label9.Text = secondForm.label10.Text = "";
                 }
             }
             else if (radioButton2.Checked)
@@ -466,6 +468,8 @@
                     comboBox1.SelectedIndex = 0;
 
                     label18.Text = label17.Text = label16.Text = label15.Text = label14.Text = label2.Text = "";
+
+                    secondForm.label1.Text = secondForm.label2.Text = secondForm.label3.Text = secondForm.label4.Text = secondForm.label5.Text = secondForm.label6.Text = secondForm.label7.Text = secondForm.label8.Text = secondForm.label9.Text = secondForm.label10.Text = "";
                 }
             }
             else if (radioButton3.Checked)
@@ -490,6 +494,10 @@
                     comboBox1.SelectedIndex = 0;
 
                     label2.Text = label28.Text = label27.Text = label26.Text = label25.Text = label24.Text = label34.Text = "";
+
+                    secondForm.Width -= 96;
+
+                    secondForm.label1.Text = secondForm.label2.Text = secondForm.label3.Text = secondForm.label4.Text = secondForm.label5.Text = secondForm.label6.Text = secondForm.label7.Text = secondForm.label8.Text = secondForm.label9.Text = secondForm.label10.Text = secondForm.label11.Text = secondForm.label12.Text = "";
                 }
             }
             else if (radioButton4.Checked)
@@ -514,6 +522,10 @@
                     comboBox1.SelectedIndex = 0;
 
                     label2.Text = label42.Text = label41.Text = label40.Text = label39.Text = label38.Text = label36.Text = label49.Text = "";
+
+                    secondForm.Width -= 192;
+
+                    secondForm.label1.Text = secondForm.label2.Text = secondForm.label3.Text = secondForm.label4.Text = secondForm.label5.Text = secondForm.label6.Text = secondForm.label7.Text = secondForm.label8.Text = secondForm.label9.Text = secondForm.label10.Text = secondForm.label11.Text = secondForm.label12.Text = secondForm.label13.Text = secondForm.label14.Text = "";
                 }
             }
             else if (radioButton5.Checked)
@@ -538,6 +550,10 @@
                     comboBox1.SelectedIndex = 0;
 
                     label2.Text = label58.Text = label57.Text = label56.Text = label55.Text = label54.Text = label52.Text = label50.Text = "";
+
+                    secondForm.Width -= 192;
+
+                    secondForm.label1.Text = secondForm.label2.Text = secondForm.label3.Text = secondForm.label4.Text = secondForm.label5.Text = secondForm.label6.Text = secondForm.label7.Text = secondForm.label8.Text = secondForm.label9.Text = secondForm.label10.Text = secondForm.label11.Text = secondForm.label12.Text = secondForm.label13.Text = secondForm.label14.Text = "";
                 }
             }
             else if (radioButton6.Checked)
@@ -562,6 +578,10 @@
                     comboBox1.SelectedIndex = 0;
 
                     label2.Text = label70.Text = label69.Text = label68.Text = label67.Text = label66.Text = label64.Text = "";
+
+                    secondForm.Width -= 96;
+
+                    secondForm.label1.Text = secondForm.label2.Text = secondForm.label3.Text = secondForm.label4.Text = secondForm.label5.Text = secondForm.label6.Text = secondForm.label7.Text = secondForm.label8.Text = secondForm.label9.Text = secondForm.label10.Text = secondForm.label11.Text = secondForm.label12.Text = secondForm.label13.Text = secondForm.label14.Text = "";
                 }
             }
         }
