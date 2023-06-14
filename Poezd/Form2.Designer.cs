@@ -171,6 +171,7 @@
             ShowIcon = false;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "RE";
+            TopMost = true;
             ResumeLayout(false);
         }
 
