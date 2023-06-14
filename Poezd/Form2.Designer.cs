@@ -55,7 +55,7 @@
             // 
             label2.BackColor = SystemColors.InactiveCaption;
             label2.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.ForeColor = Color.Red;
+            label2.ForeColor = Color.Black;
             label2.Location = new Point(8, 40);
             label2.Name = "label2";
             label2.Size = new Size(88, 23);
@@ -66,7 +66,7 @@
             // 
             label3.BackColor = SystemColors.InactiveCaption;
             label3.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.ForeColor = Color.Red;
+            label3.ForeColor = Color.Black;
             label3.Location = new Point(104, 40);
             label3.Name = "label3";
             label3.Size = new Size(88, 23);
@@ -88,7 +88,7 @@
             // 
             label5.BackColor = SystemColors.InactiveCaption;
             label5.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.ForeColor = Color.Red;
+            label5.ForeColor = Color.Black;
             label5.Location = new Point(200, 40);
             label5.Name = "label5";
             label5.Size = new Size(88, 23);
@@ -110,7 +110,7 @@
             // 
             label7.BackColor = SystemColors.InactiveCaption;
             label7.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label7.ForeColor = Color.Red;
+            label7.ForeColor = Color.Black;
             label7.Location = new Point(296, 40);
             label7.Name = "label7";
             label7.Size = new Size(88, 23);
@@ -132,7 +132,7 @@
             // 
             label9.BackColor = SystemColors.InactiveCaption;
             label9.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label9.ForeColor = Color.Red;
+            label9.ForeColor = Color.Black;
             label9.Location = new Point(392, 40);
             label9.Name = "label9";
             label9.Size = new Size(88, 23);
@@ -155,6 +155,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(488, 70);
+            ControlBox = false;
             Controls.Add(label9);
             Controls.Add(label10);
             Controls.Add(label7);
@@ -177,15 +178,15 @@
 
         #endregion
 
-        private Label label1;
-        private Label label2;
-        private Label label3;
-        private Label label4;
-        private Label label5;
-        private Label label6;
-        private Label label7;
-        private Label label8;
-        private Label label9;
-        private Label label10;
+        public Label label1;
+        public Label label2;
+        public Label label3;
+        public Label label4;
+        public Label label5;
+        public Label label6;
+        public Label label7;
+        public Label label8;
+        public Label label9;
+        public Label label10;
     }
 }

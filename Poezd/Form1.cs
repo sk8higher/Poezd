@@ -4,6 +4,8 @@
     {
         private DateTime time;
 
+        private Form2 secondForm = new();
+
         private int hour, minute, second;
         private int r, v;
 
@@ -25,12 +27,14 @@
             b = m = 0;
             button2.Enabled = button4.Enabled = false;
 
-            Form2 secondForm = new Form2();
             secondForm.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // Получаем ссылку на вторую форму
+            Form2 secondForm = Application.OpenForms.OfType<Form2>().FirstOrDefault();
+
             time = DateTime.Now;
             label2.Text = $"Время {time:T}";
 
@@ -57,6 +61,10 @@
                 // добавляем минуты ко времени и обнуляем секунды
                 label9.Text = $"{time.AddMinutes(2 + r).AddSeconds(-time.Second):T}";
                 sent = label9.Text;
+                
+                secondForm.label1.Text = "Saint Denis";
+                secondForm.label2.Text = sent;
+
                 label10.Text = $"{time.AddMinutes(7 + r).AddSeconds(-time.Second):T}";
                 emm = label10.Text;
                 label11.Text = $"{time.AddMinutes(12 + r).AddSeconds(-time.Second):T}";
