@@ -31,11 +31,7 @@
         private void button1_Click(object sender, EventArgs e)
         {
             secondForm = new();
-            
             secondForm.Show();
-
-            // Получаем ссылку на вторую форму
-            //secondForm = Application.OpenForms.OfType<Form2>().FirstOrDefault();
 
             time = DateTime.Now;
             label2.Text = $"Время {time:T}";
@@ -411,6 +407,8 @@
                     label2.Text = "";
 
                     secondForm.label1.Text = secondForm.label2.Text = secondForm.label3.Text = secondForm.label4.Text = secondForm.label5.Text = secondForm.label6.Text = secondForm.label7.Text = secondForm.label8.Text = secondForm.label9.Text = secondForm.label10.Text = "";
+
+                    secondForm.Close();
                 }
             }
             else if (radioButton2.Checked)
@@ -437,6 +435,8 @@
                     label2.Text = "";
 
                     secondForm.label1.Text = secondForm.label2.Text = secondForm.label3.Text = secondForm.label4.Text = secondForm.label5.Text = secondForm.label6.Text = secondForm.label7.Text = secondForm.label8.Text = secondForm.label9.Text = secondForm.label10.Text = "";
+                    
+                    secondForm.Close();
                 }
             }
             else if (radioButton3.Checked)
@@ -465,6 +465,8 @@
                     secondForm.Width -= 96;
 
                     secondForm.label1.Text = secondForm.label2.Text = secondForm.label3.Text = secondForm.label4.Text = secondForm.label5.Text = secondForm.label6.Text = secondForm.label7.Text = secondForm.label8.Text = secondForm.label9.Text = secondForm.label10.Text = secondForm.label11.Text = secondForm.label12.Text = "";
+
+                    secondForm.Close();
                 }
             }
             else if (radioButton4.Checked)
@@ -493,6 +495,8 @@
                     secondForm.Width -= 192;
 
                     secondForm.label1.Text = secondForm.label2.Text = secondForm.label3.Text = secondForm.label4.Text = secondForm.label5.Text = secondForm.label6.Text = secondForm.label7.Text = secondForm.label8.Text = secondForm.label9.Text = secondForm.label10.Text = secondForm.label11.Text = secondForm.label12.Text = secondForm.label13.Text = secondForm.label14.Text = "";
+
+                    secondForm.Close();
                 }
             }
             else if (radioButton5.Checked)
@@ -521,6 +525,8 @@
                     secondForm.Width -= 192;
 
                     secondForm.label1.Text = secondForm.label2.Text = secondForm.label3.Text = secondForm.label4.Text = secondForm.label5.Text = secondForm.label6.Text = secondForm.label7.Text = secondForm.label8.Text = secondForm.label9.Text = secondForm.label10.Text = secondForm.label11.Text = secondForm.label12.Text = secondForm.label13.Text = secondForm.label14.Text = "";
+
+                    secondForm.Close();
                 }
             }
             else if (radioButton6.Checked)
@@ -549,6 +555,8 @@
                     secondForm.Width -= 96;
 
                     secondForm.label1.Text = secondForm.label2.Text = secondForm.label3.Text = secondForm.label4.Text = secondForm.label5.Text = secondForm.label6.Text = secondForm.label7.Text = secondForm.label8.Text = secondForm.label9.Text = secondForm.label10.Text = secondForm.label11.Text = secondForm.label12.Text = secondForm.label13.Text = secondForm.label14.Text = "";
+
+                    secondForm.Close();
                 }
             }
         }
@@ -647,6 +655,8 @@
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Information
             );
+
+            secondForm.Close();
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
