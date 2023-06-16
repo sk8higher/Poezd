@@ -168,45 +168,38 @@
                 b += 1.35;
                 m += 1;
 
-                label42.Text = $"{time.AddMinutes(2 + r).AddSeconds(-time.Second):T}";
-                ann = label42.Text;
+                ann = $"{time.AddMinutes(2 + r).AddSeconds(-time.Second):T}";
 
                 secondForm.label1.Text = "Annesburg";
                 secondForm.label2.Text = ann;
 
-                label41.Text = $"{time.AddMinutes(7 + r).AddSeconds(-time.Second):T}";
-                sent = label41.Text;
+                sent = $"{time.AddMinutes(7 + r).AddSeconds(-time.Second):T}";
 
                 secondForm.label4.Text = "Saint Denis";
                 secondForm.label3.Text = sent;
 
-                label40.Text = $"{time.AddMinutes(12 + r).AddSeconds(-time.Second):T}";
-                emm = label40.Text;
+                emm = $"{time.AddMinutes(12 + r).AddSeconds(-time.Second):T}";
 
                 secondForm.label6.Text = "Emerald";
                 secondForm.label5.Text = emm;
 
-                label39.Text = $"{time.AddMinutes(17 + r).AddSeconds(-time.Second):T}";
-                valen = label39.Text;
+                valen = $"{time.AddMinutes(17 + r).AddSeconds(-time.Second):T}";
 
                 secondForm.label8.Text = "Valentine";
                 secondForm.label7.Text = valen;
 
-                label38.Text = $"{time.AddMinutes(21 + r).AddSeconds(-time.Second):T}";
-                rou = label38.Text;
+                rou = $"{time.AddMinutes(21 + r).AddSeconds(-time.Second):T}";
 
                 secondForm.label10.Text = "Rhodes";
                 secondForm.label9.Text = rou;
 
-                label36.Text = $"{time.AddMinutes(24 + r).AddSeconds(-time.Second):T}";
-                sent_prib = label36.Text;
+                sent_prib = $"{time.AddMinutes(24 + r).AddSeconds(-time.Second):T}";
 
                 secondForm.Width += 96;
                 secondForm.label12.Text = "Saint Dennis";
                 secondForm.label11.Text = sent_prib;
 
-                label49.Text = $"{time.AddMinutes(28 + r).AddSeconds(-time.Second):T}";
-                ann_prib = label49.Text;
+                ann_prib = $"{time.AddMinutes(28 + r).AddSeconds(-time.Second):T}";
 
                 secondForm.Width += 96;
                 secondForm.label14.Text = "Annesburg";
