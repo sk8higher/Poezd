@@ -59,32 +59,27 @@
                 m += 1;
 
                 // добавляем минуты ко времени и обнуляем секунды
-                label9.Text = $"{time.AddMinutes(2 + r).AddSeconds(-time.Second):T}";
-                sent = label9.Text;
-                
+                sent = $"{time.AddMinutes(2 + r).AddSeconds(-time.Second):T}";
+
                 secondForm.label1.Text = "Saint Denis";
                 secondForm.label2.Text = sent;
 
-                label10.Text = $"{time.AddMinutes(7 + r).AddSeconds(-time.Second):T}";
-                emm = label10.Text;
+                emm = $"{time.AddMinutes(7 + r).AddSeconds(-time.Second):T}";
 
                 secondForm.label4.Text = "Emerald";
                 secondForm.label3.Text = emm;
 
-                label11.Text = $"{time.AddMinutes(12 + r).AddSeconds(-time.Second):T}";
-                valen = label11.Text;
+                valen = $"{time.AddMinutes(12 + r).AddSeconds(-time.Second):T}";
 
                 secondForm.label6.Text = "Valentine";
                 secondForm.label5.Text = valen;
 
-                label12.Text = $"{time.AddMinutes(16 + r).AddSeconds(-time.Second):T}";
-                rou = label12.Text;
+                rou = $"{time.AddMinutes(16 + r).AddSeconds(-time.Second):T}";
 
                 secondForm.label8.Text = "Rhodes";
                 secondForm.label7.Text = rou;
 
-                label13.Text = $"{time.AddMinutes(18 + r).AddSeconds(-time.Second):T}";
-                sent_prib = label13.Text;
+                sent_prib = $"{time.AddMinutes(18 + r).AddSeconds(-time.Second):T}";
 
                 secondForm.label10.Text = "Saint Denis";
                 secondForm.label9.Text = sent_prib;
