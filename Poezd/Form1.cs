@@ -649,14 +649,14 @@
 
             secondForm.label1.Text = secondForm.label2.Text = secondForm.label3.Text = secondForm.label4.Text = secondForm.label5.Text = secondForm.label6.Text = secondForm.label7.Text = secondForm.label8.Text = secondForm.label9.Text = secondForm.label10.Text = secondForm.label11.Text = secondForm.label12.Text = secondForm.label13.Text = secondForm.label14.Text = "";
 
+            secondForm.Close();
+
             MessageBox.Show(
                 "Запись удалена",
                 "Удаление",
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Information
             );
-
-            secondForm.Close();
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
