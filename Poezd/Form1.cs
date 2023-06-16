@@ -93,32 +93,27 @@
                 b += 1;
                 m += 1;
 
-                label18.Text = $"{time.AddMinutes(2 + r).AddSeconds(-time.Second):T}";
-                sent = label18.Text;
+                sent = $"{time.AddMinutes(2 + r).AddSeconds(-time.Second):T}";
 
                 secondForm.label1.Text = "Saint Denis";
                 secondForm.label2.Text = sent;
 
-                label17.Text = $"{time.AddMinutes(5 + r).AddSeconds(-time.Second):T}";
-                rou = label17.Text;
+                rou = $"{time.AddMinutes(5 + r).AddSeconds(-time.Second):T}";
 
                 secondForm.label4.Text = "Rhodes";
                 secondForm.label3.Text = rou;
 
-                label16.Text = $"{time.AddMinutes(10 + r).AddSeconds(-time.Second):T}";
-                valen = label16.Text;
+                valen = $"{time.AddMinutes(10 + r).AddSeconds(-time.Second):T}";
 
                 secondForm.label6.Text = "Valentine";
                 secondForm.label5.Text = valen;
 
-                label15.Text = $"{time.AddMinutes(14 + r).AddSeconds(-time.Second):T}";
-                emm = label15.Text;
+                emm = $"{time.AddMinutes(14 + r).AddSeconds(-time.Second):T}";
 
                 secondForm.label8.Text = "Emerald";
                 secondForm.label7.Text = emm;
 
-                label14.Text = $"{time.AddMinutes(18 + r).AddSeconds(-time.Second):T}";
-                sent_prib2 = label14.Text;
+                sent_prib2 = $"{time.AddMinutes(18 + r).AddSeconds(-time.Second):T}";
 
                 secondForm.label10.Text = "Saint Denis";
                 secondForm.label9.Text = sent_prib2;
