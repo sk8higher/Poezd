@@ -43,6 +43,9 @@
             button2 = new Button();
             button3 = new Button();
             button4 = new Button();
+            trackBar1 = new TrackBar();
+            label4 = new Label();
+            ((System.ComponentModel.ISupportInitialize)trackBar1).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -179,7 +182,7 @@
             button1.BackColor = Color.FromArgb(192, 255, 192);
             button1.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button1.ForeColor = Color.Red;
-            button1.Location = new Point(56, 472);
+            button1.Location = new Point(56, 496);
             button1.Name = "button1";
             button1.Size = new Size(120, 56);
             button1.TabIndex = 82;
@@ -192,7 +195,7 @@
             button2.BackColor = Color.FromArgb(224, 224, 224);
             button2.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button2.ForeColor = Color.Red;
-            button2.Location = new Point(184, 472);
+            button2.Location = new Point(184, 496);
             button2.Name = "button2";
             button2.Size = new Size(120, 56);
             button2.TabIndex = 83;
@@ -205,7 +208,7 @@
             button3.BackColor = Color.FromArgb(224, 224, 224);
             button3.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button3.ForeColor = Color.Blue;
-            button3.Location = new Point(312, 472);
+            button3.Location = new Point(312, 496);
             button3.Name = "button3";
             button3.Size = new Size(120, 56);
             button3.TabIndex = 84;
@@ -218,7 +221,7 @@
             button4.BackColor = Color.SteelBlue;
             button4.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             button4.ForeColor = Color.White;
-            button4.Location = new Point(440, 472);
+            button4.Location = new Point(440, 496);
             button4.Name = "button4";
             button4.Size = new Size(120, 56);
             button4.TabIndex = 85;
@@ -226,13 +229,33 @@
             button4.UseVisualStyleBackColor = false;
             button4.Click += button4_Click;
             // 
+            // trackBar1
+            // 
+            trackBar1.AutoSize = false;
+            trackBar1.Location = new Point(152, 424);
+            trackBar1.Name = "trackBar1";
+            trackBar1.Size = new Size(312, 32);
+            trackBar1.TabIndex = 86;
+            // 
+            // label4
+            // 
+            label4.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.Location = new Point(184, 464);
+            label4.Name = "label4";
+            label4.Size = new Size(248, 23);
+            label4.TabIndex = 87;
+            label4.Text = "Прозрачность второй формы";
+            label4.TextAlign = ContentAlignment.MiddleCenter;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Center;
-            ClientSize = new Size(624, 542);
+            ClientSize = new Size(624, 566);
+            Controls.Add(label4);
+            Controls.Add(trackBar1);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
@@ -255,6 +278,7 @@
             Text = "RE";
             FormClosing += Form1_FormClosing;
             Load += Form1_Load;
+            ((System.ComponentModel.ISupportInitialize)trackBar1).EndInit();
             ResumeLayout(false);
         }
 
@@ -274,5 +298,7 @@
         private Button button2;
         private Button button3;
         private Button button4;
+        private TrackBar trackBar1;
+        private Label label4;
     }
 }

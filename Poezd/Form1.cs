@@ -435,7 +435,7 @@
                     label2.Text = "";
 
                     secondForm.label1.Text = secondForm.label2.Text = secondForm.label3.Text = secondForm.label4.Text = secondForm.label5.Text = secondForm.label6.Text = secondForm.label7.Text = secondForm.label8.Text = secondForm.label9.Text = secondForm.label10.Text = "";
-                    
+
                     secondForm.Close();
                 }
             }
