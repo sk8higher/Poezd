@@ -236,6 +236,8 @@
             trackBar1.Name = "trackBar1";
             trackBar1.Size = new Size(312, 32);
             trackBar1.TabIndex = 86;
+            trackBar1.Value = 10;
+            trackBar1.ValueChanged += trackBar1_ValueChanged;
             // 
             // label4
             // 

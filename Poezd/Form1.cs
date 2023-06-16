@@ -30,8 +30,7 @@
 
         private void button1_Click(object sender, EventArgs e)
         {
-            secondForm = new();
-            secondForm.Show();
+
 
             time = DateTime.Now;
             label2.Text = $"Время {time:T}";
@@ -53,6 +52,9 @@
 
             if (radioButton1.Checked)
             {
+                secondForm = new();
+                secondForm.Show();
+
                 b += 1;
                 m += 1;
 
@@ -88,6 +90,9 @@
             }
             else if (radioButton2.Checked)
             {
+                secondForm = new();
+                secondForm.Show();
+
                 b += 1;
                 m += 1;
 
@@ -122,6 +127,9 @@
             }
             else if (radioButton3.Checked)
             {
+                secondForm = new();
+                secondForm.Show();
+
                 b += 1.2;
                 m += 1;
 
@@ -163,6 +171,9 @@
             }
             else if (radioButton4.Checked)
             {
+                secondForm = new();
+                secondForm.Show();
+
                 b += 1.35;
                 m += 1;
 
@@ -209,6 +220,9 @@
             }
             else if (radioButton5.Checked)
             {
+                secondForm = new();
+                secondForm.Show();
+
                 b += 1.35;
                 m += 1;
 
@@ -256,6 +270,9 @@
             }
             else if (radioButton6.Checked)
             {
+                secondForm = new();
+                secondForm.Show();
+
                 b += 1.2;
                 m += 1;
 
@@ -670,6 +687,14 @@
                 ) == DialogResult.OK
             )
                 e.Cancel = true;
+        }
+
+        private void trackBar1_ValueChanged(object sender, EventArgs e)
+        {
+            if (secondForm != null)
+            {
+                secondForm.Opacity = trackBar1.Value * 0.1;
+            }
         }
     }
 }
