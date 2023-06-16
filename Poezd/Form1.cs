@@ -30,8 +30,7 @@
 
         private void button1_Click(object sender, EventArgs e)
         {
-            secondForm = new();
-            secondForm.Show();
+
 
             time = DateTime.Now;
             label2.Text = $"Время {time:T}";
@@ -53,6 +52,10 @@
 
             if (radioButton1.Checked)
             {
+                secondForm = new();
+                secondForm.Show();
+                secondForm.Opacity = trackBar1.Value * 0.1;
+
                 b += 1;
                 m += 1;
 
@@ -88,6 +91,10 @@
             }
             else if (radioButton2.Checked)
             {
+                secondForm = new();
+                secondForm.Show();
+                secondForm.Opacity = trackBar1.Value * 0.1;
+
                 b += 1;
                 m += 1;
 
@@ -122,6 +129,10 @@
             }
             else if (radioButton3.Checked)
             {
+                secondForm = new();
+                secondForm.Show();
+                secondForm.Opacity = trackBar1.Value * 0.1;
+
                 b += 1.2;
                 m += 1;
 
@@ -163,6 +174,10 @@
             }
             else if (radioButton4.Checked)
             {
+                secondForm = new();
+                secondForm.Show();
+                secondForm.Opacity = trackBar1.Value * 0.1;
+
                 b += 1.35;
                 m += 1;
 
@@ -209,6 +224,10 @@
             }
             else if (radioButton5.Checked)
             {
+                secondForm = new();
+                secondForm.Show();
+                secondForm.Opacity = trackBar1.Value * 0.1;
+
                 b += 1.35;
                 m += 1;
 
@@ -256,6 +275,10 @@
             }
             else if (radioButton6.Checked)
             {
+                secondForm = new();
+                secondForm.Show();
+                secondForm.Opacity = trackBar1.Value * 0.1;
+
                 b += 1.2;
                 m += 1;
 
@@ -435,7 +458,7 @@
                     label2.Text = "";
 
                     secondForm.label1.Text = secondForm.label2.Text = secondForm.label3.Text = secondForm.label4.Text = secondForm.label5.Text = secondForm.label6.Text = secondForm.label7.Text = secondForm.label8.Text = secondForm.label9.Text = secondForm.label10.Text = "";
-                    
+
                     secondForm.Close();
                 }
             }
@@ -670,6 +693,14 @@
                 ) == DialogResult.OK
             )
                 e.Cancel = true;
+        }
+
+        private void trackBar1_ValueChanged(object sender, EventArgs e)
+        {
+            if (secondForm != null)
+            {
+                secondForm.Opacity = trackBar1.Value * 0.1;
+            }
         }
     }
 }
