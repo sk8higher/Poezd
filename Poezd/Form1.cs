@@ -4,7 +4,7 @@
     {
         private DateTime time;
 
-        private Form2 secondForm = new();
+        private Form2 secondForm;
 
         private int hour, minute, second;
         private int r, v;
@@ -26,14 +26,16 @@
             comboBox1.SelectedIndex = 0;
             b = m = 0;
             button2.Enabled = button4.Enabled = false;
-
-            secondForm.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            secondForm = new();
+            
+            secondForm.Show();
+
             // Получаем ссылку на вторую форму
-            Form2 secondForm = Application.OpenForms.OfType<Form2>().FirstOrDefault();
+            //secondForm = Application.OpenForms.OfType<Form2>().FirstOrDefault();
 
             time = DateTime.Now;
             label2.Text = $"Время {time:T}";
