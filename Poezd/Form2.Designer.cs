@@ -202,7 +202,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(486, 70);
+            ClientSize = new Size(482, 66);
             ControlBox = false;
             Controls.Add(label13);
             Controls.Add(label14);
@@ -225,6 +225,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "RE";
             TopMost = true;
+            Load += Form2_Load;
             ResumeLayout(false);
         }
 
