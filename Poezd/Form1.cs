@@ -31,7 +31,6 @@
         private void button1_Click(object sender, EventArgs e)
         {
             time = DateTime.Now;
-            //label2.Text = $"Время {time:T}";
             timer1.Start();
 
             hour = time.Hour;
@@ -413,8 +412,6 @@
                 }
                 else
                 {
-                    timer1.Stop();
-
                     button1.Enabled = button3.Enabled = true;
 
                     radioButton1.Enabled = radioButton2.Enabled = radioButton3.Enabled = radioButton4.Enabled = radioButton5.Enabled = radioButton6.Enabled = true;
@@ -443,8 +440,6 @@
                 }
                 else
                 {
-                    timer1.Stop();
-
                     button1.Enabled = button3.Enabled = true;
 
                     radioButton1.Enabled = radioButton2.Enabled = radioButton3.Enabled = radioButton4.Enabled = radioButton5.Enabled = radioButton6.Enabled = true;
@@ -473,8 +468,6 @@
                 }
                 else
                 {
-                    timer1.Stop();
-
                     button1.Enabled = button3.Enabled = true;
 
                     radioButton1.Enabled = radioButton2.Enabled = radioButton3.Enabled = radioButton4.Enabled = radioButton5.Enabled = radioButton6.Enabled = true;
@@ -505,8 +498,6 @@
                 }
                 else
                 {
-                    timer1.Stop();
-
                     button1.Enabled = button3.Enabled = true;
 
                     radioButton1.Enabled = radioButton2.Enabled = radioButton3.Enabled = radioButton4.Enabled = radioButton5.Enabled = radioButton6.Enabled = true;
@@ -537,8 +528,6 @@
                 }
                 else
                 {
-                    timer1.Stop();
-
                     button1.Enabled = button3.Enabled = true;
 
                     radioButton1.Enabled = radioButton2.Enabled = radioButton3.Enabled = radioButton4.Enabled = radioButton5.Enabled = radioButton6.Enabled = true;
@@ -569,8 +558,6 @@
                 }
                 else
                 {
-                    timer1.Stop();
-
                     button1.Enabled = button3.Enabled = true;
 
                     radioButton1.Enabled = radioButton2.Enabled = radioButton3.Enabled = radioButton4.Enabled = radioButton5.Enabled = radioButton6.Enabled = true;
@@ -669,8 +656,6 @@
                 secondForm.Width -= 96;
             }
 
-            timer1.Stop();
-
             label2.Text = "";
 
             radioButton1.Enabled = radioButton2.Enabled = radioButton3.Enabled = radioButton4.Enabled = radioButton5.Enabled = radioButton6.Enabled = true;
@@ -705,7 +690,7 @@
         private void timer1_Tick(object sender, EventArgs e)
         {
             label2.Text = $"Время: {DateTime.Now:T}";
-            secondForm.label15.Text = $"{DateTime.Now.ToString("HH:MM:ss")}";
+            secondForm.label15.Text = $"{DateTime.Now.ToString("HH:mm:ss")}";
         }
     }
 }
