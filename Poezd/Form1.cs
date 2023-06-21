@@ -705,6 +705,7 @@
         private void timer1_Tick(object sender, EventArgs e)
         {
             label2.Text = $"Время: {DateTime.Now:T}";
+            secondForm.label15.Text = $"{DateTime.Now.ToString("HH:MM:ss")}";
         }
     }
 }
