@@ -54,7 +54,6 @@
             {
                 secondForm = new();
                 secondForm.Show();
-                secondForm.Opacity = trackBar1.Value * 0.1;
 
                 b += 1;
                 m += 1;
@@ -93,7 +92,6 @@
             {
                 secondForm = new();
                 secondForm.Show();
-                secondForm.Opacity = trackBar1.Value * 0.1;
 
                 b += 1;
                 m += 1;
@@ -131,7 +129,6 @@
             {
                 secondForm = new();
                 secondForm.Show();
-                secondForm.Opacity = trackBar1.Value * 0.1;
 
                 b += 1.2;
                 m += 1;
@@ -176,7 +173,6 @@
             {
                 secondForm = new();
                 secondForm.Show();
-                secondForm.Opacity = trackBar1.Value * 0.1;
 
                 b += 1.35;
                 m += 1;
@@ -226,7 +222,6 @@
             {
                 secondForm = new();
                 secondForm.Show();
-                secondForm.Opacity = trackBar1.Value * 0.1;
 
                 b += 1.35;
                 m += 1;
@@ -277,7 +272,7 @@
             {
                 secondForm = new();
                 secondForm.Show();
-                secondForm.Opacity = trackBar1.Value * 0.1;
+              
 
                 b += 1.2;
                 m += 1;
@@ -693,14 +688,6 @@
                 ) == DialogResult.OK
             )
                 e.Cancel = true;
-        }
-
-        private void trackBar1_ValueChanged(object sender, EventArgs e)
-        {
-            if (secondForm != null)
-            {
-                secondForm.Opacity = trackBar1.Value * 0.1;
-            }
         }
     }
 }
