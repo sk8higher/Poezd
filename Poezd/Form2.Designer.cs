@@ -42,10 +42,7 @@
             label12 = new Label();
             label13 = new Label();
             label14 = new Label();
-            panel1 = new Panel();
-            panel2 = new Panel();
             label15 = new Label();
-            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // label1
@@ -53,7 +50,7 @@
             label1.BackColor = SystemColors.InactiveCaption;
             label1.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label1.ForeColor = Color.Red;
-            label1.Location = new Point(112, 16);
+            label1.Location = new Point(96, 16);
             label1.Name = "label1";
             label1.Size = new Size(88, 23);
             label1.TabIndex = 6;
@@ -64,7 +61,7 @@
             label2.BackColor = SystemColors.InactiveCaption;
             label2.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = Color.Black;
-            label2.Location = new Point(112, 48);
+            label2.Location = new Point(96, 48);
             label2.Name = "label2";
             label2.Size = new Size(88, 23);
             label2.TabIndex = 7;
@@ -75,7 +72,7 @@
             label3.BackColor = SystemColors.InactiveCaption;
             label3.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label3.ForeColor = Color.Black;
-            label3.Location = new Point(208, 48);
+            label3.Location = new Point(192, 48);
             label3.Name = "label3";
             label3.Size = new Size(88, 23);
             label3.TabIndex = 9;
@@ -86,7 +83,7 @@
             label4.BackColor = SystemColors.InactiveCaption;
             label4.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label4.ForeColor = Color.Red;
-            label4.Location = new Point(208, 16);
+            label4.Location = new Point(192, 16);
             label4.Name = "label4";
             label4.Size = new Size(88, 23);
             label4.TabIndex = 8;
@@ -97,7 +94,7 @@
             label5.BackColor = SystemColors.InactiveCaption;
             label5.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label5.ForeColor = Color.Black;
-            label5.Location = new Point(304, 48);
+            label5.Location = new Point(288, 48);
             label5.Name = "label5";
             label5.Size = new Size(88, 23);
             label5.TabIndex = 11;
@@ -108,7 +105,7 @@
             label6.BackColor = SystemColors.InactiveCaption;
             label6.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label6.ForeColor = Color.Red;
-            label6.Location = new Point(304, 16);
+            label6.Location = new Point(288, 16);
             label6.Name = "label6";
             label6.Size = new Size(88, 23);
             label6.TabIndex = 10;
@@ -119,7 +116,7 @@
             label7.BackColor = SystemColors.InactiveCaption;
             label7.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label7.ForeColor = Color.Black;
-            label7.Location = new Point(400, 48);
+            label7.Location = new Point(384, 48);
             label7.Name = "label7";
             label7.Size = new Size(88, 23);
             label7.TabIndex = 13;
@@ -130,7 +127,7 @@
             label8.BackColor = SystemColors.InactiveCaption;
             label8.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label8.ForeColor = Color.Red;
-            label8.Location = new Point(400, 16);
+            label8.Location = new Point(384, 16);
             label8.Name = "label8";
             label8.Size = new Size(88, 23);
             label8.TabIndex = 12;
@@ -141,7 +138,7 @@
             label9.BackColor = SystemColors.InactiveCaption;
             label9.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label9.ForeColor = Color.Black;
-            label9.Location = new Point(496, 48);
+            label9.Location = new Point(480, 48);
             label9.Name = "label9";
             label9.Size = new Size(88, 23);
             label9.TabIndex = 15;
@@ -152,7 +149,7 @@
             label10.BackColor = SystemColors.InactiveCaption;
             label10.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label10.ForeColor = Color.Red;
-            label10.Location = new Point(496, 16);
+            label10.Location = new Point(480, 16);
             label10.Name = "label10";
             label10.Size = new Size(88, 23);
             label10.TabIndex = 14;
@@ -163,7 +160,7 @@
             label11.BackColor = SystemColors.InactiveCaption;
             label11.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label11.ForeColor = Color.Black;
-            label11.Location = new Point(592, 48);
+            label11.Location = new Point(576, 48);
             label11.Name = "label11";
             label11.Size = new Size(88, 23);
             label11.TabIndex = 17;
@@ -174,7 +171,7 @@
             label12.BackColor = SystemColors.InactiveCaption;
             label12.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label12.ForeColor = Color.Red;
-            label12.Location = new Point(592, 16);
+            label12.Location = new Point(576, 16);
             label12.Name = "label12";
             label12.Size = new Size(88, 23);
             label12.TabIndex = 16;
@@ -185,7 +182,7 @@
             label13.BackColor = SystemColors.InactiveCaption;
             label13.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label13.ForeColor = Color.Black;
-            label13.Location = new Point(688, 48);
+            label13.Location = new Point(672, 48);
             label13.Name = "label13";
             label13.Size = new Size(88, 23);
             label13.TabIndex = 19;
@@ -196,36 +193,19 @@
             label14.BackColor = SystemColors.InactiveCaption;
             label14.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label14.ForeColor = Color.Red;
-            label14.Location = new Point(688, 16);
+            label14.Location = new Point(672, 16);
             label14.Name = "label14";
             label14.Size = new Size(88, 23);
             label14.TabIndex = 18;
             label14.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // panel1
-            // 
-            panel1.BackColor = Color.FromArgb(43, 45, 49);
-            panel1.Location = new Point(8, 0);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(88, 104);
-            panel1.TabIndex = 20;
-            // 
-            // panel2
-            // 
-            panel2.BackColor = Color.FromArgb(54, 54, 52);
-            panel2.Controls.Add(label15);
-            panel2.Location = new Point(0, 16);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(104, 56);
-            panel2.TabIndex = 21;
-            // 
             // label15
             // 
             label15.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label15.ForeColor = Color.White;
-            label15.Location = new Point(0, 16);
+            label15.Location = new Point(0, 24);
             label15.Name = "label15";
-            label15.Size = new Size(104, 24);
+            label15.Size = new Size(88, 32);
             label15.TabIndex = 0;
             label15.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -233,10 +213,9 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(592, 87);
+            ClientSize = new Size(570, 79);
             ControlBox = false;
-            Controls.Add(panel2);
-            Controls.Add(panel1);
+            Controls.Add(label15);
             Controls.Add(label13);
             Controls.Add(label14);
             Controls.Add(label11);
@@ -259,7 +238,6 @@
             Text = "RE";
             TopMost = true;
             Load += Form2_Load;
-            panel2.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -279,8 +257,6 @@
         public Label label12;
         public Label label13;
         public Label label14;
-        private Panel panel1;
-        private Panel panel2;
         public Label label15;
     }
 }
